@@ -2,7 +2,6 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'DaisBase'
 theme = "hugo-theme-relearn-main"
-prettyURLs = true
 
 
 
@@ -14,4 +13,4 @@ home = [ "HTML", "RSS", "SEARCH"]
 
 [params]
   themeVariant = "blue"
-  prettyURLs = true
+  uglyURLs = true
