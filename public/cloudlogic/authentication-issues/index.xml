@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authentication Issues on DaisBase</title>
-    <link>http://example.org/cloudlogic/authentication-issues/index.html</link>
+    <link>http://example.org/cloudlogic/authentication-issues.html</link>
     <description>Recent content in Authentication Issues on DaisBase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/cloudlogic/authentication-issues/index.xml" rel="self" type="application/rss+xml" />
