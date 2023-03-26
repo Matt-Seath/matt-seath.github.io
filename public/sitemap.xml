@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/articles.html</loc>
+    <loc>http://example.org/articles/index.html</loc>
   </url>
   <url>
-    <loc>http://example.org/articles/example.html</loc>
+    <loc>http://example.org/articles/example/index.html</loc>
   </url>
   <url>
-    <loc>http://example.org/cloudlogic/authentication-issues.html</loc>
+    <loc>http://example.org/cloudlogic/authentication-issues/index.html</loc>
   </url>
   <url>
-    <loc>http://example.org/cloudlogic.html</loc>
+    <loc>http://example.org/cloudlogic/index.html</loc>
   </url>
   <url>
-    <loc>http://example.org/dais.html</loc>
+    <loc>http://example.org/dais/index.html</loc>
   </url>
   <url>
-    <loc>http://example.org/categories.html</loc>
+    <loc>http://example.org/categories/index.html</loc>
   </url>
   <url>
-    <loc>http://example.org/tags.html</loc>
+    <loc>http://example.org/tags/index.html</loc>
   </url>
 </urlset>
