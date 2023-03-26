@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'DaisBase'
 theme = "hugo-theme-relearn-main"
 prettyURLs = true
-cleanUrls = true
 
 
 
@@ -16,4 +15,3 @@ home = [ "HTML", "RSS", "SEARCH"]
 [params]
   themeVariant = "blue"
   prettyURLs = true
-  cleanUrls = true
