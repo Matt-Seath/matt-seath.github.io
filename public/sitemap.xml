@@ -19,9 +19,6 @@
     <loc>http://example.org/categories/index.html</loc>
   </url>
   <url>
-    <loc>http://example.org/index.html</loc>
-  </url>
-  <url>
     <loc>http://example.org/tags/index.html</loc>
   </url>
 </urlset>

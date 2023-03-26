@@ -45,13 +45,6 @@ var relearn_search_index = [
     "content": "",
     "description": "",
     "tags": null,
-    "title": "DaisBase",
-    "uri": "/index.html"
-  },
-  {
-    "content": "",
-    "description": "",
-    "tags": null,
     "title": "Tags",
     "uri": "/tags/index.html"
   }
