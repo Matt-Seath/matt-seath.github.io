@@ -16,16 +16,28 @@
     <loc>http://example.org/documentation/cloudlogic/index.html</loc>
   </url>
   <url>
+    <loc>http://example.org/workflows/cloudlogic/index.html</loc>
+  </url>
+  <url>
     <loc>http://example.org/troubleshooting/dealerlogic/configure-dl-shortcut/index.html</loc>
   </url>
   <url>
     <loc>http://example.org/troubleshooting/dealerlogic/creating-a-case-in-jsd/index.html</loc>
   </url>
   <url>
+    <loc>http://example.org/documentation/dais/index.html</loc>
+  </url>
+  <url>
+    <loc>http://example.org/workflows/dais/index.html</loc>
+  </url>
+  <url>
     <loc>http://example.org/documentation/dealerlogic/index.html</loc>
   </url>
   <url>
     <loc>http://example.org/troubleshooting/dealerlogic/index.html</loc>
+  </url>
+  <url>
+    <loc>http://example.org/workflows/dealerlogic/index.html</loc>
   </url>
   <url>
     <loc>http://example.org/documentation/index.html</loc>

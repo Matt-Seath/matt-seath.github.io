@@ -5,7 +5,7 @@ weight = 9
 
 ## Troubleshooting Flowchart
 
-Articles for DealerLogic can be found [Here.]({{< ref "/Troubleshooting/DealerLogic/_index.md" >}} "DealerLogic")
+Articles for DealerLogic can be found [Here.]({{< ref "/Documentation/DealerLogic/_index.md" >}} "DealerLogic")
 
 {{< mermaid >}}
 

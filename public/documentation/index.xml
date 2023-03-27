@@ -16,6 +16,13 @@ DealerLogic is setup by installing a “server” version of the application loc
 CloudLogic makes use of a simple Remote Desktop Services application, which allows a dealer’s DealerLogic app to be installed on one of two AWS servers run in the Dealer Solutions&amp;rsquo; legacy AWS account.</description>
     </item>
     <item>
+      <title>DAIS</title>
+      <link>http://example.org/documentation/dais/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/documentation/dais/index.html</guid>
+      <description></description>
+    </item>
+    <item>
       <title>DealerLogic</title>
       <link>http://example.org/documentation/dealerlogic/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
