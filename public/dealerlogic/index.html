@@ -6,7 +6,8 @@
     <meta name="generator" content="Hugo 0.111.3">
     <meta name="generator" content="Relearn 5.12.4+tip">
     <meta name="description" content="">
-    <title>Example :: DaisBase</title><link rel="icon" href="/images/favicon.png" type="image/x-icon">
+    <title>DealerLogic :: DaisBase</title>
+    <link href="/dealerlogic/index.xml" rel="alternate" type="application/rss+xml" title="DealerLogic :: DaisBase"><link rel="icon" href="/images/favicon.png" type="image/x-icon">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="/css/fontawesome-all.min.css?1679876960" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1679876960" rel="stylesheet"></noscript>
     <link href="/css/nucleus.css?1679876960" rel="stylesheet">
@@ -38,17 +39,17 @@
       window.variants && variants.init( [ 'blue' ] );
     </script>
   </head>
-  <body class="mobile-support html" data-url="/articles/example/index.html">
+  <body class="mobile-support html" data-url="/dealerlogic/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
       <nav id="topbar" class="highlightable">
         <div>
           <div class="navigation">
-            <a class="nav nav-next topbar-link" href="/dealerlogic/index.html" title="DealerLogic (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+            <a class="nav nav-next topbar-link" href="/cloudlogic/index.html" title="CloudLogic (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
           <div class="navigation">
-            <a class="nav nav-prev topbar-link" href="/articles/index.html" title="Articles (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+            <a class="nav nav-prev topbar-link" href="/articles/example/index.html" title="Example (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
@@ -56,8 +57,7 @@
             </span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">DaisBase</span></a><meta itemprop="position" content="1"> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/articles/index.html"><span itemprop="name">Articles</span></a><meta itemprop="position" content="2"> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Example</span><meta itemprop="position" content="3"></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">DealerLogic</span><meta itemprop="position" content="2"></li>
             </ol>
           </div>
         </div>
@@ -67,18 +67,58 @@
           <div id="head-tags">
           </div>
           <article class="default">
-<h1 id="example">Example</h1>
+<h1 id="dealerlogic">DealerLogic</h1>
 
 
 <div class="mermaid align-center">
-graph TB;
-    A[Hard edge] --&gt;|Link text| B(Round edge)
-    B --&gt; C{&lt;strong&gt;Decision&lt;/strong&gt;}
-    C --&gt;|One| D[Result one]
-    C --&gt;|Two| E((j kkljlkjlkjlk))
+flowchart TB;
+    A[Ask the client to reboot before&lt;br&gt; commencing troubleshooting] --&gt; B{Is &lt;br&gt;DealerLogic &lt;br&gt;running?}
+    B --&gt;|Yes| C{Is DealerLogic &lt;br&gt;installed on a &lt;br&gt;network?}
+    B --&gt;|No| D[Check the shortcut to DealerLogic &lt;br&gt;is correct - The shortcut needs to point &lt;br&gt;to DNSSuite.exe. Ensure the if they are &lt;br&gt;networked that the network &lt;br&gt;connection is working and there isn&#39;t a &lt;br&gt;red cross next to the drive.]
+    C --&gt;|Yes| E[Check the shortcut to DealerLogic &lt;br&gt;is correct - the shortcut needs to point &lt;br&gt;to DNSSuite.exe. Ensure that unc paths are &lt;br&gt;used. E.g. &#39;\server\Dealerlogic&#39;&lt;br&gt; instead of &#39;c:\Dealerlogic&#39;.]
+    C --&gt;|No| F{Is the &lt;br&gt;client running &lt;br&gt;the latest version of &lt;br&gt;DealerLogic and &lt;br&gt;DNSSuite?}
+    E --&gt; F
+    F --&gt;|Yes| G{Is there&lt;br&gt; a software or database&lt;br&gt; error? E.g. Missing fields, &lt;br&gt;can&#39;t save data &lt;br&gt;etc.}
+    F --&gt;|No| H[Get the client to &lt;br&gt;perform a Program Update to &lt;br&gt;update to the latest of DealerLogic&lt;br&gt; and DNSSuite. If this fails use the &lt;br&gt;application distributor to provide&lt;br&gt; the latest version.]
+    H --&gt; B
+    D --&gt; I{Is &lt;br&gt;the issue &lt;br&gt;resolved?}
+    I --&gt;|Yes| J((Issue &lt;br&gt;is resolved.))
+    I --&gt;|No| K{Is &lt;br&gt;this a DL3&lt;br&gt; client?}
+    K --&gt;|No| L((Create a&lt;br&gt;case of Bucket&lt;br&gt;O&#39; Stuff.))
+    K --&gt;|Yes| M[Check that the database&lt;br&gt;connection information is&lt;br&gt;the same as the license&lt;br&gt;file. Troubleshoot DL3&lt;br&gt;connection issues.]
+    M --&gt; N{Is&lt;br&gt;the issue&lt;br&gt;resolved?}
+    N --&gt;|Yes|O((Issue&lt;br&gt;is resolved.))
+    N --&gt;|No|P((Create&lt;br&gt; a casefor IT in &lt;br&gt;JSD for the database&lt;br&gt;connection issue&lt;br&gt;to be &lt;br&gt;resolved.))
+    G --&gt; |Yes|Q[Login to DealerLogic&lt;br&gt;is Single User Mode.]
+    G --&gt; |No|R{Is the&lt;br&gt;DealerLogic running&lt;br&gt;very slowly?}
+    R --&gt; |Yes|S{Is this&lt;br&gt;an MDB client?}
+    R --&gt; |No|T[This could be a network&lt;br&gt;related issue. Thy restarting&lt;br&gt;the one machine of if&lt;br&gt;networked try restarting&lt;br&gt;all machines.]
+    S --&gt; |Yes|U[Log in a single&lt;br&gt;user and compact&lt;br&gt;the database.]
+    S --&gt; |No|T
+    T --&gt; V{Is&lt;br&gt; the issue&lt;br&gt; resolved?}
+    U --&gt; AC{Is &lt;br&gt; the issue&lt;br&gt;resolved?}
+    V --&gt; |Yes|W((Issue&lt;br&gt;is resolved.))
+    V --&gt; |No|X[Ask the client whether&lt;br&gt;they can turn off the&lt;br&gt;antivirus / firewall on their&lt;br&gt; machine and see whether&lt;br&gt; that resolves the issue.]
+    X --&gt; Y{Is &lt;br&gt;the issue&lt;br&gt; resolved?}
+    Y --&gt; |Yes|Z[There is an issue with the&lt;br&gt;clients firewall settings. Ensure&lt;br&gt; DealerLogic is allowed &lt;br&gt; and relevant dealersolutions&lt;br&gt;urls are whitelisted.]
+    Y --&gt; |No|AA((Create a&lt;br&gt;case of Bucket&lt;br&gt;O&#39; Stuff.))
+    Z --&gt; AB((Issue&lt;br&gt;is resolved.))
+    AC --&gt; |Yes|AD((Recommend&lt;br&gt;for the client to&lt;br&gt;Update to &lt;br&gt;CloudLogic.))
+    AC --&gt; |No|T
+    Q --&gt; AE{Is&lt;br&gt;this a DL2&lt;br&gt;client?}
+    AE --&gt; |Yes|AF[Perform a database&lt;br&gt;compact and repair.]
+    AE --&gt; |No|AG[Try a Backdate of the software&lt;br&gt;by a version. E.g. If the current &lt;br&gt;version is 2.562 try backdating&lt;br&gt;to version 2.561.]
+    AG --&gt; AH{Is&lt;br&gt;the issue&lt;br&gt;resolved?}
+    AH --&gt; |Yes|AI((Issue&lt;br&gt;is resolved.))
+    AF --&gt; AL{Is &lt;br&gt;the issue&lt;br&gt;resolved?}
+    AL --&gt; |Yes|AM((Issue&lt;br&gt;is resolved.))
+    AL --&gt; |No|AG
+    AH --&gt; |No|AN[Try and replicate the issue in&lt;br&gt; AppSupport. Open up DealerLogic via &lt;br&gt;V:/Client/Services/AppSupport/Dealerlogic.&lt;br&gt; Ensure that the version at the bottom &lt;br&gt;of AppSupport matches the clients version.]
+    AN --&gt; AO((Create a &lt;br&gt;case of Bucket&lt;br&gt;O&#39; Stuff.))
+
+
     
-    click E &#34;/cloudlogic/authentication-issues/&#34;
-    click B &#34;/cloudlogic/authentication-issues/&#34;
+
 </div>
 
             <footer class="footline">
@@ -116,9 +156,9 @@ graph TB;
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics enlarge morespace">
-          <li data-nav-id="/articles/index.html" class="parent "><a class="padding" href="/articles/index.html">Articles</a><ul id="subsections-fa67380f47fb5f877a2392081e348ee7" class="morespace">
-          <li data-nav-id="/articles/example/index.html" class="active"><a class="padding" href="/articles/example/index.html">Example</a></li></ul></li>
-          <li data-nav-id="/dealerlogic/index.html" class=""><a class="padding" href="/dealerlogic/index.html">DealerLogic</a></li>
+          <li data-nav-id="/articles/index.html" class=""><a class="padding" href="/articles/index.html">Articles</a><ul id="subsections-fa67380f47fb5f877a2392081e348ee7" class="morespace">
+          <li data-nav-id="/articles/example/index.html" class=""><a class="padding" href="/articles/example/index.html">Example</a></li></ul></li>
+          <li data-nav-id="/dealerlogic/index.html" class="active"><a class="padding" href="/dealerlogic/index.html">DealerLogic</a></li>
           <li data-nav-id="/cloudlogic/index.html" class=""><a class="padding" href="/cloudlogic/index.html">CloudLogic</a><ul id="subsections-a57a1d6dc6ac44e25352208199cdba0b" class="morespace">
           <li data-nav-id="/cloudlogic/authentication-issues/index.html" class=""><a class="padding" href="/cloudlogic/authentication-issues/index.html">Authentication Issues</a></li></ul></li>
           <li data-nav-id="/dais/index.html" class=""><a class="padding" href="/dais/index.html">DAIS</a></li>
