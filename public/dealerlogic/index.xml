@@ -6,5 +6,27 @@
     <description>Recent content in DealerLogic on DaisBase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/dealerlogic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bucket O&#39; Stuff</title>
+      <link>http://example.org/dealerlogic/bucket-o-stuff/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/dealerlogic/bucket-o-stuff/index.html</guid>
+      <description>Overview Bucket-O-Stuff is intended as an inbox for new work which Product Managers will then triage and decide on the course of action to for the work. It is to prevent requests simply making there way into product lanes and being action without the approval of a Product Manager. Any P1 and P2 should also be submitted to Bucket-O-Stuff and then the P1 &amp;amp; P2 Internal Communication Standards document followed in order to handle the P1 or P2.</description>
+    </item>
+    <item>
+      <title>Configure DL Shortcut</title>
+      <link>http://example.org/dealerlogic/configure-dl-shortcut/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/dealerlogic/configure-dl-shortcut/index.html</guid>
+      <description>Check the shortcut to DealerLogic is correct - The shortcut needs to point to DNSSuite.exe. Ensure the if they are networked that the network connection is working and there isn&amp;rsquo;t a red cross next to the drive.
+Ensure that unc paths are used. E.g. &amp;lsquo;\server\Dealerlogic&amp;rsquo; instead of &amp;lsquo;c:\Dealerlogic&amp;rsquo;.</description>
+    </item>
+    <item>
+      <title>Rebooting</title>
+      <link>http://example.org/dealerlogic/rebooting/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/dealerlogic/rebooting/index.html</guid>
+      <description>Just tell the client to turn it off and on again, Lol. Is is that hard?</description>
+    </item>
   </channel>
 </rss>

@@ -51,6 +51,12 @@ flowchart TB;
     AN --> AO((Create a <br>case of Bucket<br>O' Stuff.))
 
 
-    
+    click D "{{< relref "Configure DL Shortcut.md" >}}"
+    click E "{{< relref "Configure DL Shortcut.md" >}}"
+    click A "{{< relref "Rebooting.md" >}}"
+    click L "{{< relref "Bucket O' Stuff/_index.md" >}}"
+    click AA "{{< relref "Bucket O' Stuff/_index.md" >}}"
+    click AO "{{< relref "Bucket O' Stuff/_index.md" >}}"
+  
 
 {{< /mermaid >}}

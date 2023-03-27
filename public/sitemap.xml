@@ -4,10 +4,19 @@
     <loc>http://example.org/articles/index.html</loc>
   </url>
   <url>
+    <loc>http://example.org/dealerlogic/bucket-o-stuff/index.html</loc>
+  </url>
+  <url>
+    <loc>http://example.org/dealerlogic/configure-dl-shortcut/index.html</loc>
+  </url>
+  <url>
     <loc>http://example.org/dealerlogic/index.html</loc>
   </url>
   <url>
     <loc>http://example.org/articles/example/index.html</loc>
+  </url>
+  <url>
+    <loc>http://example.org/dealerlogic/rebooting/index.html</loc>
   </url>
   <url>
     <loc>http://example.org/cloudlogic/authentication-issues/index.html</loc>
