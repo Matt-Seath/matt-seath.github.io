@@ -7,32 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Articles</title>
-      <link>http://example.org/articles/index.html</link>
+      <title>Documentation</title>
+      <link>http://example.org/documentation/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/articles/index.html</guid>
+      <guid>http://example.org/documentation/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>DealerLogic</title>
-      <link>http://example.org/dealerlogic/index.html</link>
+      <title>Troubleshooting</title>
+      <link>http://example.org/troubleshooting/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/dealerlogic/index.html</guid>
-      <description>Troubleshooting Flowchart Articles for DealerLogic can be found Here.
-flowchart TB;A[Ask the client to reboot before&amp;lt;br&amp;gt; commencing troubleshooting] --&amp;gt; B{Is &amp;lt;br&amp;gt;DealerLogic &amp;lt;br&amp;gt;running?}B:::d --&amp;gt;|Yes| C{Is DealerLogic &amp;lt;br&amp;gt;installed on a &amp;lt;br&amp;gt;network?}B --&amp;gt;|No| D[Check the shortcut to DealerLogic &amp;lt;br&amp;gt;is correct - The shortcut needs to point &amp;lt;br&amp;gt;to DNSSuite.exe. Ensure the if they are &amp;lt;br&amp;gt;networked that the network &amp;lt;br&amp;gt;connection is working and there isn&amp;#39;t a &amp;lt;br&amp;gt;red cross next to the drive.]C:::d --&amp;gt;|Yes| E[Check the shortcut to DealerLogic &amp;lt;br&amp;gt;is correct - the shortcut needs to point &amp;lt;br&amp;gt;to DNSSuite.</description>
+      <guid>http://example.org/troubleshooting/index.html</guid>
+      <description></description>
     </item>
     <item>
-      <title>CloudLogic</title>
-      <link>http://example.org/cloudlogic/index.html</link>
+      <title>Workflows</title>
+      <link>http://example.org/workflows/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/cloudlogic/index.html</guid>
-      <description>graph TB;A[Hard edge] --&amp;gt;|Link text| B(Round edge)B --&amp;gt; C{&amp;lt;strong&amp;gt;Decision&amp;lt;/strong&amp;gt;}C --&amp;gt;|One| D[Result one]C --&amp;gt;|Two| E((j kkljlkjlkjlk))click E &amp;#34;/cloudlogic/authentication-issues/&amp;#34;click B &amp;#34;/cloudlogic/authentication-issues/&amp;#34;</description>
-    </item>
-    <item>
-      <title>DAIS</title>
-      <link>http://example.org/dais/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/dais/index.html</guid>
+      <guid>http://example.org/workflows/index.html</guid>
       <description></description>
     </item>
   </channel>

@@ -6,8 +6,8 @@
     <meta name="generator" content="Hugo 0.111.3">
     <meta name="generator" content="Relearn 5.12.4+tip">
     <meta name="description" content="">
-    <title>Tags :: DaisBase</title>
-    <link href="/tags/index.xml" rel="alternate" type="application/rss+xml" title="Tags :: DaisBase"><link rel="icon" href="/images/favicon.png" type="image/x-icon">
+    <title>DealerLogic :: DaisBase</title>
+    <link href="/troubleshooting/dealerlogic/index.xml" rel="alternate" type="application/rss+xml" title="DealerLogic :: DaisBase"><link rel="icon" href="/images/favicon.png" type="image/x-icon">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="/css/fontawesome-all.min.css?1679893510" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1679893510" rel="stylesheet"></noscript>
     <link href="/css/nucleus.css?1679893510" rel="stylesheet">
@@ -39,26 +39,36 @@
       window.variants && variants.init( [ 'blue' ] );
     </script>
   </head>
-  <body class="mobile-support html" data-url="/tags/index.html">
+  <body class="mobile-support html" data-url="/troubleshooting/dealerlogic/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
       <nav id="topbar" class="highlightable">
         <div>
           <div class="navigation">
-            <span class="nav nav-next topbar-link"><i class="fa fa-chevron-right fa-fw"></i></span>
+            <a class="nav nav-next topbar-link" href="/troubleshooting/dealerlogic/appsupport/index.html" title="AppSupport (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
           <div class="navigation">
-            <a class="nav nav-prev topbar-link" href="/index.html" title=" (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+            <a class="nav nav-prev topbar-link" href="/troubleshooting/index.html" title="Troubleshooting (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
               <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
             </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">DaisBase</span></a><meta itemprop="position" content="1"> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Tags</span><meta itemprop="position" content="2"></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/troubleshooting/index.html"><span itemprop="name">Troubleshooting</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">DealerLogic</span><meta itemprop="position" content="3"></li>
             </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="toc-wrapper"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#troubleshooting-flowchart">Troubleshooting Flowchart</a></li>
+  </ul>
+</nav>
+            </div>
           </div>
         </div>
       </nav>
@@ -66,14 +76,86 @@
         <div class="flex-block-wrapper">
           <div id="head-tags">
           </div>
-          <article>
-<h1 id="tags">Tags</h1>
-<ul>
-</ul>
+          <article class="default">
+<h1 id="dealerlogic">DealerLogic</h1>
+
+<h2 id="troubleshooting-flowchart">Troubleshooting Flowchart</h2>
+<p>Articles for DealerLogic can be found <a href="http://example.org/troubleshooting/dealerlogic/" title="DealerLogic">Here.</a></p>
+
+<div class="mermaid align-center">
+
+flowchart TB;
+
+    A[Ask the client to reboot before&lt;br&gt; commencing troubleshooting] --&gt; B{Is &lt;br&gt;DealerLogic &lt;br&gt;running?}
+    B:::d --&gt;|Yes| C{Is DealerLogic &lt;br&gt;installed on a &lt;br&gt;network?}
+    B --&gt;|No| D[Check the shortcut to DealerLogic &lt;br&gt;is correct - The shortcut needs to point &lt;br&gt;to DNSSuite.exe. Ensure the if they are &lt;br&gt;networked that the network &lt;br&gt;connection is working and there isn&#39;t a &lt;br&gt;red cross next to the drive.]
+    C:::d --&gt;|Yes| E[Check the shortcut to DealerLogic &lt;br&gt;is correct - the shortcut needs to point &lt;br&gt;to DNSSuite.exe. Ensure that unc paths are &lt;br&gt;used. E.g. &#39;\server\Dealerlogic&#39;&lt;br&gt; instead of &#39;c:\Dealerlogic&#39;.]
+    C --&gt;|No| F{Is the &lt;br&gt;client running &lt;br&gt;the latest version of &lt;br&gt;DealerLogic and &lt;br&gt;DNSSuite?}
+    E:::g --&gt; F
+    F:::d --&gt;|Yes| G{Is there&lt;br&gt; a software or database&lt;br&gt; error? E.g. Missing fields, &lt;br&gt;can&#39;t save data &lt;br&gt;etc.}
+    F --&gt;|No| H[Get the client to &lt;br&gt;perform a Program Update to &lt;br&gt;update to the latest of DealerLogic&lt;br&gt; and DNSSuite. If this fails use the &lt;br&gt;application distributor to provide&lt;br&gt; the latest version.]
+    H:::g --&gt; B
+    D:::g --&gt; I{Is &lt;br&gt;the issue &lt;br&gt;resolved?}
+    I:::d --&gt;|Yes| J((Issue &lt;br&gt;is resolved.))
+    I --&gt;|No| K{Is &lt;br&gt;this a DL3&lt;br&gt; client?}
+    K:::d --&gt;|No| L((Create a&lt;br&gt;case of Bucket&lt;br&gt;O&#39; Stuff.))
+    K --&gt;|Yes| M[Check that the database&lt;br&gt;connection information is&lt;br&gt;the same as the license&lt;br&gt;file. Troubleshoot DL3&lt;br&gt;connection issues.]
+    M:::g --&gt; N{Is&lt;br&gt;the issue&lt;br&gt;resolved?}
+    N:::d --&gt;|Yes|O((Issue&lt;br&gt;is resolved.))
+    N --&gt;|No|P((Create&lt;br&gt; a case for IT in &lt;br&gt;JSD for the database&lt;br&gt;connection issue&lt;br&gt;to be &lt;br&gt;resolved.))
+    G:::d --&gt; |Yes|Q[Login to DealerLogic&lt;br&gt;is Single User Mode.]
+    G --&gt; |No|R{Is the&lt;br&gt;DealerLogic running&lt;br&gt;very slowly?}
+    R:::d --&gt; |Yes|S{Is this&lt;br&gt;an MDB client?}
+    R --&gt; |No|T[This could be a network&lt;br&gt;related issue. Thy restarting&lt;br&gt;the one machine of if&lt;br&gt;networked try restarting&lt;br&gt;all machines.]
+    S:::d --&gt; |Yes|U[Log in a single&lt;br&gt;user and compact&lt;br&gt;the database.]
+    S --&gt; |No|T
+    T:::g --&gt; V{Is&lt;br&gt; the issue&lt;br&gt; resolved?}
+    U:::g --&gt; AC{Is &lt;br&gt; the issue&lt;br&gt;resolved?}
+    V:::d --&gt; |Yes|W((Issue&lt;br&gt;is resolved.))
+    V --&gt; |No|X[Ask the client whether&lt;br&gt;they can turn off the&lt;br&gt;antivirus / firewall on their&lt;br&gt; machine and see whether&lt;br&gt; that resolves the issue.]
+    X:::g --&gt; Y{Is &lt;br&gt;the issue&lt;br&gt; resolved?}
+    Y:::d --&gt; |Yes|Z[There is an issue with the&lt;br&gt;clients firewall settings. Ensure&lt;br&gt; DealerLogic is allowed &lt;br&gt; and relevant dealersolutions&lt;br&gt;urls are whitelisted.]
+    Y --&gt; |No|AA((Create a&lt;br&gt;case of Bucket&lt;br&gt;O&#39; Stuff.))
+    Z:::g --&gt; AB((Issue&lt;br&gt;is resolved.))
+    AC:::d --&gt; |Yes|AD((Recommend&lt;br&gt;for the client to&lt;br&gt;Update to &lt;br&gt;CloudLogic.))
+    AC --&gt; |No|T
+    Q:::g --&gt; AE{Is&lt;br&gt;this a DL2&lt;br&gt;client?}
+    AE:::d --&gt; |Yes|AF[Perform a database&lt;br&gt;compact and repair.]
+    AE --&gt; |No|AG[Try a Backdate of the software&lt;br&gt;by a version. E.g. If the current &lt;br&gt;version is 2.562 try backdating&lt;br&gt;to version 2.561.]
+    AG:::g --&gt; AH{Is&lt;br&gt;the issue&lt;br&gt;resolved?}
+    AH:::d --&gt; |Yes|AI((Issue&lt;br&gt;is resolved.))
+    AF:::g --&gt; AL{Is &lt;br&gt;the issue&lt;br&gt;resolved?}
+    AL:::d --&gt; |Yes|AM((Issue&lt;br&gt;is resolved.))
+    AL --&gt; |No|AG
+    AH --&gt; |No|AN[Try and replicate the issue in&lt;br&gt; AppSupport. Open up DealerLogic via &lt;br&gt;V:/Client/Services/AppSupport/Dealerlogic.&lt;br&gt; Ensure that the version at the bottom &lt;br&gt;of AppSupport matches the clients version.]
+    AN:::g --&gt; AO((Create a &lt;br&gt;case of Bucket&lt;br&gt;O&#39; Stuff.))
+
+
+    click D &#34;/troubleshooting/dealerlogic/configure-dl-shortcut/&#34;
+    click E &#34;/troubleshooting/dealerlogic/configure-dl-shortcut/&#34;
+    click A &#34;/troubleshooting/dealerlogic/rebooting/&#34;
+    click T &#34;/troubleshooting/dealerlogic/rebooting/&#34;
+    click L &#34;/troubleshooting/dealerlogic/bucket-o-stuff/&#34;
+    click AA &#34;/troubleshooting/dealerlogic/bucket-o-stuff/&#34;
+    click AO &#34;/troubleshooting/dealerlogic/bucket-o-stuff/&#34;
+    click P &#34;/troubleshooting/dealerlogic/creating-a-case-in-jsd/&#34;
+    click H &#34;/troubleshooting/dealerlogic/updating-dl-and-dnssuite/&#34;
+    click M &#34;/troubleshooting/dealerlogic/validating-dl-license-details/&#34;
+    click Q &#34;/troubleshooting/dealerlogic/logging-in-single-user-mode/&#34;
+    click AF &#34;/troubleshooting/dealerlogic/performing-a-database-compact-and-repair/&#34;
+    click U &#34;/troubleshooting/dealerlogic/logging-in-single-user-mode/&#34;
+    click AG &#34;/troubleshooting/dealerlogic/backdating-dl-to-an-earlier-version/&#34;
+    click AN &#34;/troubleshooting/dealerlogic/appsupport/replicating-an-issue-in-appsupport/&#34;
+    click Z &#34;/troubleshooting/dealerlogic/client-firewall-issues/&#34;
+    classDef g fill:#DDFFBB
+    classDef d fill:#FFEEBB
+    
+</div>
 
             <footer class="footline">
             </footer>
-          </article>        </div>
+          </article>
+        </div>
       </main>
     </div>
     <aside id="sidebar" class="default-animation">
@@ -108,8 +190,8 @@
           <li data-nav-id="/documentation/index.html" class=""><input type="checkbox" id="section-e168b3d1f84171565d0cb958237cd5d8" aria-controls="subsections-e168b3d1f84171565d0cb958237cd5d8"><label for="section-e168b3d1f84171565d0cb958237cd5d8"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Documentation</span></label><a class="padding" href="/documentation/index.html">Documentation</a><ul id="subsections-e168b3d1f84171565d0cb958237cd5d8" class="morespace collapsible-menu">
           <li data-nav-id="/documentation/cloudlogic/index.html" class=""><a class="padding" href="/documentation/cloudlogic/index.html">CloudLogic</a></li>
           <li data-nav-id="/documentation/dealerlogic/index.html" class=""><a class="padding" href="/documentation/dealerlogic/index.html">DealerLogic</a></li></ul></li>
-          <li data-nav-id="/troubleshooting/index.html" class=""><input type="checkbox" id="section-2c20587919345c5f42ffd52d8b592b94" aria-controls="subsections-2c20587919345c5f42ffd52d8b592b94"><label for="section-2c20587919345c5f42ffd52d8b592b94"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Troubleshooting</span></label><a class="padding" href="/troubleshooting/index.html">Troubleshooting</a><ul id="subsections-2c20587919345c5f42ffd52d8b592b94" class="morespace collapsible-menu">
-          <li data-nav-id="/troubleshooting/dealerlogic/index.html" class="alwaysopen"><input type="checkbox" id="section-2c1a1cf7fc022470026c8e454559b60e" aria-controls="subsections-2c1a1cf7fc022470026c8e454559b60e" checked><label for="section-2c1a1cf7fc022470026c8e454559b60e"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu DealerLogic</span></label><a class="padding" href="/troubleshooting/dealerlogic/index.html">DealerLogic</a><ul id="subsections-2c1a1cf7fc022470026c8e454559b60e" class="morespace collapsible-menu">
+          <li data-nav-id="/troubleshooting/index.html" class="parent "><input type="checkbox" id="section-2c20587919345c5f42ffd52d8b592b94" aria-controls="subsections-2c20587919345c5f42ffd52d8b592b94" checked><label for="section-2c20587919345c5f42ffd52d8b592b94"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Troubleshooting</span></label><a class="padding" href="/troubleshooting/index.html">Troubleshooting</a><ul id="subsections-2c20587919345c5f42ffd52d8b592b94" class="morespace collapsible-menu">
+          <li data-nav-id="/troubleshooting/dealerlogic/index.html" class="active parent alwaysopen"><input type="checkbox" id="section-2c1a1cf7fc022470026c8e454559b60e" aria-controls="subsections-2c1a1cf7fc022470026c8e454559b60e" checked><label for="section-2c1a1cf7fc022470026c8e454559b60e"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu DealerLogic</span></label><a class="padding" href="/troubleshooting/dealerlogic/index.html">DealerLogic</a><ul id="subsections-2c1a1cf7fc022470026c8e454559b60e" class="morespace collapsible-menu">
           <li data-nav-id="/troubleshooting/dealerlogic/appsupport/index.html" class="alwaysopen"><input type="checkbox" id="section-844ba4f12cb0fcbe42b46e55e27199f5" aria-controls="subsections-844ba4f12cb0fcbe42b46e55e27199f5" checked><label for="section-844ba4f12cb0fcbe42b46e55e27199f5"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu AppSupport</span></label><a class="padding" href="/troubleshooting/dealerlogic/appsupport/index.html">AppSupport</a><ul id="subsections-844ba4f12cb0fcbe42b46e55e27199f5" class="morespace collapsible-menu">
           <li data-nav-id="/troubleshooting/dealerlogic/appsupport/replicating-an-issue-in-appsupport/index.html" class=""><a class="padding" href="/troubleshooting/dealerlogic/appsupport/replicating-an-issue-in-appsupport/index.html">Replicating an Issue in AppSupport</a></li></ul></li>
           <li data-nav-id="/troubleshooting/dealerlogic/backdating-dl-to-an-earlier-version/index.html" class=""><a class="padding" href="/troubleshooting/dealerlogic/backdating-dl-to-an-earlier-version/index.html">Backdating DL to an Earlier Version</a></li>
@@ -166,6 +248,19 @@
     </aside>
     <script src="/js/clipboard.min.js?1679893510" defer></script>
     <script src="/js/perfect-scrollbar.min.js?1679893510" defer></script>
+    <script src="/js/d3/d3-color.min.js?1679893510" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1679893510" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1679893510" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1679893510" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1679893510" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1679893510" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1679893510" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1679893510" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1679893510" defer></script>
+    <script src="/js/mermaid.min.js?1679893510" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{}");
+    </script>
     <script src="/js/theme.js?1679893510" defer></script>
   </body>
 </html>
