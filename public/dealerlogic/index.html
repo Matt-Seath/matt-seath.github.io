@@ -9,18 +9,18 @@
     <title>DealerLogic :: DaisBase</title>
     <link href="/dealerlogic/index.xml" rel="alternate" type="application/rss+xml" title="DealerLogic :: DaisBase"><link rel="icon" href="/images/favicon.png" type="image/x-icon">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1679882168" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1679882168" rel="stylesheet"></noscript>
-    <link href="/css/nucleus.css?1679882168" rel="stylesheet">
-    <link href="/css/auto-complete.css?1679882168" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1679882168" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1679882168" rel="stylesheet">
-    <link href="/css/fonts.css?1679882168" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1679882168" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1679882168" rel="stylesheet">
-    <link href="/css/theme-blue.css?1679882168" rel="stylesheet" id="variant-style">
-    <link href="/css/variant.css?1679882168" rel="stylesheet">
-    <link href="/css/print.css?1679882168" rel="stylesheet" media="print">
-    <link href="/css/ie.css?1679882168" rel="stylesheet">
-    <script src="/js/url.js?1679882168"></script>
-    <script src="/js/variant.js?1679882168"></script>
+    <link href="/css/fontawesome-all.min.css?1679883871" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1679883871" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1679883871" rel="stylesheet">
+    <link href="/css/auto-complete.css?1679883871" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1679883871" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1679883871" rel="stylesheet">
+    <link href="/css/fonts.css?1679883871" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1679883871" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1679883871" rel="stylesheet">
+    <link href="/css/theme-blue.css?1679883871" rel="stylesheet" id="variant-style">
+    <link href="/css/variant.css?1679883871" rel="stylesheet">
+    <link href="/css/print.css?1679883871" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1679883871" rel="stylesheet">
+    <script src="/js/url.js?1679883871"></script>
+    <script src="/js/variant.js?1679883871"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -46,7 +46,7 @@
       <nav id="topbar" class="highlightable">
         <div>
           <div class="navigation">
-            <a class="nav nav-next topbar-link" href="/dealerlogic/bucket-o-stuff/index.html" title="Bucket O&#39; Stuff (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+            <a class="nav nav-next topbar-link" href="/dealerlogic/appsupport/index.html" title="AppSupport (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
           <div class="navigation">
             <a class="nav nav-prev topbar-link" href="/articles/cloudlogic/index.html" title="CloudLogic (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
@@ -89,7 +89,7 @@ flowchart TB;
     K --&gt;|Yes| M[Check that the database&lt;br&gt;connection information is&lt;br&gt;the same as the license&lt;br&gt;file. Troubleshoot DL3&lt;br&gt;connection issues.]
     M --&gt; N{Is&lt;br&gt;the issue&lt;br&gt;resolved?}
     N --&gt;|Yes|O((Issue&lt;br&gt;is resolved.))
-    N --&gt;|No|P((Create&lt;br&gt; a casefor IT in &lt;br&gt;JSD for the database&lt;br&gt;connection issue&lt;br&gt;to be &lt;br&gt;resolved.))
+    N --&gt;|No|P((Create&lt;br&gt; a case for IT in &lt;br&gt;JSD for the database&lt;br&gt;connection issue&lt;br&gt;to be &lt;br&gt;resolved.))
     G --&gt; |Yes|Q[Login to DealerLogic&lt;br&gt;is Single User Mode.]
     G --&gt; |No|R{Is the&lt;br&gt;DealerLogic running&lt;br&gt;very slowly?}
     R --&gt; |Yes|S{Is this&lt;br&gt;an MDB client?}
@@ -121,11 +121,20 @@ flowchart TB;
     click D &#34;/dealerlogic/configure-dl-shortcut/&#34;
     click E &#34;/dealerlogic/configure-dl-shortcut/&#34;
     click A &#34;/dealerlogic/rebooting/&#34;
+    click T &#34;/dealerlogic/rebooting/&#34;
     click L &#34;/dealerlogic/bucket-o-stuff/&#34;
     click AA &#34;/dealerlogic/bucket-o-stuff/&#34;
     click AO &#34;/dealerlogic/bucket-o-stuff/&#34;
-  
-
+    click P &#34;/dealerlogic/creating-a-case-in-jsd/&#34;
+    click H &#34;/dealerlogic/updating-dl-and-dnssuite/&#34;
+    click M &#34;/dealerlogic/validating-dl-license-details/&#34;
+    click Q &#34;/dealerlogic/logging-in-single-user-mode/&#34;
+    click AF &#34;/dealerlogic/performing-a-database-compact-and-repair/&#34;
+    click U &#34;/dealerlogic/logging-in-single-user-mode/&#34;
+    click AG &#34;/dealerlogic/backdating-dl-to-an-earlier-version/&#34;
+    click AN &#34;/dealerlogic/appsupport/replicating-an-issue-in-appsupport/&#34;
+    click Z &#34;/dealerlogic/client-firewall-issues/&#34;
+    
 </div>
 
             <footer class="footline">
@@ -149,12 +158,12 @@ flowchart TB;
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/js/auto-complete.js?1679882168" defer></script>
-        <script src="/js/lunr/lunr.min.js?1679882168" defer></script>
-        <script src="/js/lunr/lunr.stemmer.support.min.js?1679882168" defer></script>
-        <script src="/js/lunr/lunr.multi.min.js?1679882168" defer></script>
-        <script src="/js/lunr/lunr.en.min.js?1679882168" defer></script>
-        <script src="/js/search.js?1679882168" defer></script>
+        <script src="/js/auto-complete.js?1679883871" defer></script>
+        <script src="/js/lunr/lunr.min.js?1679883871" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1679883871" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1679883871" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1679883871" defer></script>
+        <script src="/js/search.js?1679883871" defer></script>
       </div>
       <div id="homelinks" class="default-animation">
         <ul>
@@ -166,9 +175,18 @@ flowchart TB;
           <li data-nav-id="/articles/index.html" class=""><a class="padding" href="/articles/index.html">Articles</a><ul id="subsections-fa67380f47fb5f877a2392081e348ee7" class="morespace">
           <li data-nav-id="/articles/cloudlogic/index.html" class=""><a class="padding" href="/articles/cloudlogic/index.html">CloudLogic</a></li></ul></li>
           <li data-nav-id="/dealerlogic/index.html" class="active parent "><a class="padding" href="/dealerlogic/index.html">DealerLogic</a><ul id="subsections-7b8b5117cccc820e40c3fae1040cd69b" class="morespace">
+          <li data-nav-id="/dealerlogic/appsupport/index.html" class="alwaysopen"><a class="padding" href="/dealerlogic/appsupport/index.html">AppSupport</a><ul id="subsections-8ee9ae77a3bb4c8d2bded747f5b92026" class="morespace">
+          <li data-nav-id="/dealerlogic/appsupport/replicating-an-issue-in-appsupport/index.html" class=""><a class="padding" href="/dealerlogic/appsupport/replicating-an-issue-in-appsupport/index.html">Replicating an Issue in AppSupport</a></li></ul></li>
+          <li data-nav-id="/dealerlogic/backdating-dl-to-an-earlier-version/index.html" class=""><a class="padding" href="/dealerlogic/backdating-dl-to-an-earlier-version/index.html">Backdating DL to an Earlier Version</a></li>
           <li data-nav-id="/dealerlogic/bucket-o-stuff/index.html" class=""><a class="padding" href="/dealerlogic/bucket-o-stuff/index.html">Bucket O&#39; Stuff</a></li>
+          <li data-nav-id="/dealerlogic/client-firewall-issues/index.html" class=""><a class="padding" href="/dealerlogic/client-firewall-issues/index.html">Client Firewall Issues</a></li>
           <li data-nav-id="/dealerlogic/configure-dl-shortcut/index.html" class=""><a class="padding" href="/dealerlogic/configure-dl-shortcut/index.html">Configure DL Shortcut</a></li>
-          <li data-nav-id="/dealerlogic/rebooting/index.html" class=""><a class="padding" href="/dealerlogic/rebooting/index.html">Rebooting</a></li></ul></li>
+          <li data-nav-id="/dealerlogic/creating-a-case-in-jsd/index.html" class=""><a class="padding" href="/dealerlogic/creating-a-case-in-jsd/index.html">Creating a Case in JSD</a></li>
+          <li data-nav-id="/dealerlogic/logging-in-single-user-mode/index.html" class=""><a class="padding" href="/dealerlogic/logging-in-single-user-mode/index.html">Logging in Single User Mode</a></li>
+          <li data-nav-id="/dealerlogic/performing-a-database-compact-and-repair/index.html" class=""><a class="padding" href="/dealerlogic/performing-a-database-compact-and-repair/index.html">Performing a Database Compact and Repair</a></li>
+          <li data-nav-id="/dealerlogic/rebooting/index.html" class=""><a class="padding" href="/dealerlogic/rebooting/index.html">Rebooting</a></li>
+          <li data-nav-id="/dealerlogic/updating-dl-and-dnssuite/index.html" class=""><a class="padding" href="/dealerlogic/updating-dl-and-dnssuite/index.html">Updating DL and DNSSuite</a></li>
+          <li data-nav-id="/dealerlogic/validating-dl-license-details/index.html" class=""><a class="padding" href="/dealerlogic/validating-dl-license-details/index.html">Validating DL License Details</a></li></ul></li>
           <li data-nav-id="/cloudlogic/index.html" class=""><a class="padding" href="/cloudlogic/index.html">CloudLogic</a><ul id="subsections-a57a1d6dc6ac44e25352208199cdba0b" class="morespace">
           <li data-nav-id="/cloudlogic/authentication-issues/index.html" class=""><a class="padding" href="/cloudlogic/authentication-issues/index.html">Authentication Issues</a></li></ul></li>
           <li data-nav-id="/dais/index.html" class=""><a class="padding" href="/dais/index.html">DAIS</a></li>
@@ -210,21 +228,21 @@ flowchart TB;
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1679882168" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1679882168" defer></script>
-    <script src="/js/d3/d3-color.min.js?1679882168" defer></script>
-    <script src="/js/d3/d3-dispatch.min.js?1679882168" defer></script>
-    <script src="/js/d3/d3-drag.min.js?1679882168" defer></script>
-    <script src="/js/d3/d3-ease.min.js?1679882168" defer></script>
-    <script src="/js/d3/d3-interpolate.min.js?1679882168" defer></script>
-    <script src="/js/d3/d3-selection.min.js?1679882168" defer></script>
-    <script src="/js/d3/d3-timer.min.js?1679882168" defer></script>
-    <script src="/js/d3/d3-transition.min.js?1679882168" defer></script>
-    <script src="/js/d3/d3-zoom.min.js?1679882168" defer></script>
-    <script src="/js/mermaid.min.js?1679882168" defer></script>
+    <script src="/js/clipboard.min.js?1679883871" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1679883871" defer></script>
+    <script src="/js/d3/d3-color.min.js?1679883871" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1679883871" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1679883871" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1679883871" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1679883871" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1679883871" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1679883871" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1679883871" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1679883871" defer></script>
+    <script src="/js/mermaid.min.js?1679883871" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{}");
     </script>
-    <script src="/js/theme.js?1679882168" defer></script>
+    <script src="/js/theme.js?1679883871" defer></script>
   </body>
 </html>

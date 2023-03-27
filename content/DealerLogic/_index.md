@@ -23,7 +23,7 @@ flowchart TB;
     K -->|Yes| M[Check that the database<br>connection information is<br>the same as the license<br>file. Troubleshoot DL3<br>connection issues.]
     M --> N{Is<br>the issue<br>resolved?}
     N -->|Yes|O((Issue<br>is resolved.))
-    N -->|No|P((Create<br> a casefor IT in <br>JSD for the database<br>connection issue<br>to be <br>resolved.))
+    N -->|No|P((Create<br> a case for IT in <br>JSD for the database<br>connection issue<br>to be <br>resolved.))
     G --> |Yes|Q[Login to DealerLogic<br>is Single User Mode.]
     G --> |No|R{Is the<br>DealerLogic running<br>very slowly?}
     R --> |Yes|S{Is this<br>an MDB client?}
@@ -55,9 +55,18 @@ flowchart TB;
     click D "{{< relref "Configure DL Shortcut.md" >}}"
     click E "{{< relref "Configure DL Shortcut.md" >}}"
     click A "{{< relref "Rebooting.md" >}}"
+    click T "{{< relref "Rebooting.md" >}}"
     click L "{{< relref "Bucket O' Stuff/_index.md" >}}"
     click AA "{{< relref "Bucket O' Stuff/_index.md" >}}"
     click AO "{{< relref "Bucket O' Stuff/_index.md" >}}"
-  
-
+    click P "{{< relref "Creating a case in JSD.md" >}}"
+    click H "{{< relref "Updating DL and DNSSuite.md" >}}"
+    click M "{{< relref "Validating DL license details.md" >}}"
+    click Q "{{< relref "Logging in Single User Mode.md" >}}"
+    click AF "{{< relref "Performing a database compact and repair.md" >}}"
+    click U "{{< relref "Logging in Single User Mode.md" >}}"
+    click AG "{{< relref "Backdating DL to an earlier version.md" >}}"
+    click AN "{{< relref "AppSupport/Replicating an issue in AppSupport.md" >}}"
+    click Z "{{< relref "Client Firewall issues.md" >}}"
+    
 {{< /mermaid >}}

@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/dealerlogic/appsupport/index.html</loc>
+  </url>
+  <url>
     <loc>http://example.org/articles/index.html</loc>
   </url>
   <url>
+    <loc>http://example.org/dealerlogic/backdating-dl-to-an-earlier-version/index.html</loc>
+  </url>
+  <url>
     <loc>http://example.org/dealerlogic/bucket-o-stuff/index.html</loc>
+  </url>
+  <url>
+    <loc>http://example.org/dealerlogic/client-firewall-issues/index.html</loc>
   </url>
   <url>
     <loc>http://example.org/articles/cloudlogic/index.html</loc>
@@ -13,10 +22,28 @@
     <loc>http://example.org/dealerlogic/configure-dl-shortcut/index.html</loc>
   </url>
   <url>
+    <loc>http://example.org/dealerlogic/creating-a-case-in-jsd/index.html</loc>
+  </url>
+  <url>
     <loc>http://example.org/dealerlogic/index.html</loc>
   </url>
   <url>
+    <loc>http://example.org/dealerlogic/logging-in-single-user-mode/index.html</loc>
+  </url>
+  <url>
+    <loc>http://example.org/dealerlogic/performing-a-database-compact-and-repair/index.html</loc>
+  </url>
+  <url>
     <loc>http://example.org/dealerlogic/rebooting/index.html</loc>
+  </url>
+  <url>
+    <loc>http://example.org/dealerlogic/appsupport/replicating-an-issue-in-appsupport/index.html</loc>
+  </url>
+  <url>
+    <loc>http://example.org/dealerlogic/updating-dl-and-dnssuite/index.html</loc>
+  </url>
+  <url>
+    <loc>http://example.org/dealerlogic/validating-dl-license-details/index.html</loc>
   </url>
   <url>
     <loc>http://example.org/cloudlogic/authentication-issues/index.html</loc>

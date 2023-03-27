@@ -11,7 +11,7 @@ CloudLogic makes use of a simple Remote Desktop Services application, which allo
 
 CloudLogic diagram:
 
-![img](1.png)
+![img](static/images/1.png)
 
 
 

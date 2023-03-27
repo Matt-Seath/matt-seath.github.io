@@ -7,11 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/dealerlogic/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AppSupport</title>
+      <link>http://example.org/dealerlogic/appsupport/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/dealerlogic/appsupport/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backdating DL to an Earlier Version</title>
+      <link>http://example.org/dealerlogic/backdating-dl-to-an-earlier-version/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/dealerlogic/backdating-dl-to-an-earlier-version/index.html</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Bucket O&#39; Stuff</title>
       <link>http://example.org/dealerlogic/bucket-o-stuff/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/dealerlogic/bucket-o-stuff/index.html</guid>
       <description>Overview Bucket-O-Stuff is intended as an inbox for new work which Product Managers will then triage and decide on the course of action to for the work. It is to prevent requests simply making there way into product lanes and being action without the approval of a Product Manager. Any P1 and P2 should also be submitted to Bucket-O-Stuff and then the P1 &amp;amp; P2 Internal Communication Standards document followed in order to handle the P1 or P2.</description>
+    </item>
+    <item>
+      <title>Client Firewall Issues</title>
+      <link>http://example.org/dealerlogic/client-firewall-issues/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/dealerlogic/client-firewall-issues/index.html</guid>
+      <description></description>
     </item>
     <item>
       <title>Configure DL Shortcut</title>
@@ -22,11 +43,46 @@
 Ensure that unc paths are used. E.g. &amp;lsquo;\server\Dealerlogic&amp;rsquo; instead of &amp;lsquo;c:\Dealerlogic&amp;rsquo;.</description>
     </item>
     <item>
+      <title>Creating a Case in JSD</title>
+      <link>http://example.org/dealerlogic/creating-a-case-in-jsd/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/dealerlogic/creating-a-case-in-jsd/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Logging in Single User Mode</title>
+      <link>http://example.org/dealerlogic/logging-in-single-user-mode/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/dealerlogic/logging-in-single-user-mode/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performing a Database Compact and Repair</title>
+      <link>http://example.org/dealerlogic/performing-a-database-compact-and-repair/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/dealerlogic/performing-a-database-compact-and-repair/index.html</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Rebooting</title>
       <link>http://example.org/dealerlogic/rebooting/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/dealerlogic/rebooting/index.html</guid>
       <description>Just tell the client to turn it off and on again, Lol. Is is that hard?</description>
+    </item>
+    <item>
+      <title>Updating DL and DNSSuite</title>
+      <link>http://example.org/dealerlogic/updating-dl-and-dnssuite/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/dealerlogic/updating-dl-and-dnssuite/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Validating DL License Details</title>
+      <link>http://example.org/dealerlogic/validating-dl-license-details/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/dealerlogic/validating-dl-license-details/index.html</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
