@@ -3,6 +3,7 @@ title = "DealerLogic"
 weight = 9
 +++
 
+# Troubleshooting Flowchart
 
 {{< mermaid >}}
 flowchart TB;

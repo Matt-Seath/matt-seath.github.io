@@ -7,11 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://example.org/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example</title>
-      <link>http://example.org/articles/example/index.html</link>
+      <title>CloudLogic</title>
+      <link>http://example.org/articles/cloudlogic/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/articles/example/index.html</guid>
-      <description>graph TB;A[Hard edge] --&amp;gt;|Link text| B(Round edge)B --&amp;gt; C{&amp;lt;strong&amp;gt;Decision&amp;lt;/strong&amp;gt;}C --&amp;gt;|One| D[Result one]C --&amp;gt;|Two| E((j kkljlkjlkjlk))click E &amp;#34;/cloudlogic/authentication-issues/&amp;#34;click B &amp;#34;/cloudlogic/authentication-issues/&amp;#34;</description>
+      <guid>http://example.org/articles/cloudlogic/index.html</guid>
+      <description>CloudLogic is the “Cloud” based version of a Dealer Solutions application called DealerLogic. (Read more here).
+DealerLogic is setup by installing a “server” version of the application locally on a dealer’s network and then users login using a local version of DealerLogic on each desktop. IT do not support DealerLogic, it is handled by the respective developers.
+CloudLogic makes use of a simple Remote Desktop Services application, which allows a dealer’s DealerLogic app to be installed on one of two AWS servers run in the Dealer Solutions&amp;rsquo; legacy AWS account.</description>
     </item>
   </channel>
 </rss>
