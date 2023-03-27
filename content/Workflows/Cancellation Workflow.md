@@ -6,6 +6,7 @@ weight = 9
 
 1. Once Zendesk Ticket is recieved, paste the following template into the chat and fill in the missing values. Then, change chat from internal so that the client can view it.
 
+    ![image](/static/images/1.png)
     ```
     Hi [name],
 
@@ -27,5 +28,13 @@ weight = 9
 
     Kind regards,
     ```
+    ![image](/1.png)
 
-2. Add a client warning 
+2. Add the following as a client warning:
+
+    ```
+    Cancellation - Zendesk ticket - Read only until dd/mm/yy
+    ```
+
+    ![image](/images/1.png)
+    

@@ -1,6 +1,3 @@
-# DaisBase
-
-
 ## Common Issues
 - [DealerLogic Troubleshooting Flowchart]({{< ref "/Troubleshooting/DealerLogic/_index.md" >}} "DL TS")
 
