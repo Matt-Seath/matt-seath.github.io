@@ -11,8 +11,8 @@
       <link>http://example.org/workflows/cancellation-workflow/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/workflows/cancellation-workflow/index.html</guid>
-      <description>Once Zendesk Ticket is recieved, paste the following template into the chat and fill in the missing values. Then, change chat from internal so that the client can view it.
-Hi [name],I’ve received a cancellation request for [organisation name], to end the following services: [insert product(s) here]Please note, as per our Terms and Conditions, the 30 day notice of cancellation will take effect from the day your request was submitted.</description>
+      <description>Once Zendesk Ticket is recieved:
+Paste the following template into the text field and fill in the missing values. Hi [name],I’ve received a cancellation request for [organisation name], to end the following services: [insert product(s) here]Please note, as per our Terms and Conditions, the 30 day notice of cancellation will take effect from the day your request was submitted. Therefore, the cancellation date will be [dd/mm/yy] and you will receive one last invoice for month.</description>
     </item>
   </channel>
 </rss>

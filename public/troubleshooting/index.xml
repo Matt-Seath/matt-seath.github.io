@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/troubleshooting/dealerlogic/index.html</guid>
       <description>Troubleshooting Flowchart Articles for DealerLogic can be found Here.
-flowchart TB;A[Ask the client to reboot before&amp;lt;br&amp;gt; commencing troubleshooting] --&amp;gt; B{Is &amp;lt;br&amp;gt;DealerLogic &amp;lt;br&amp;gt;running?}B:::d --&amp;gt;|Yes| C{Is DealerLogic &amp;lt;br&amp;gt;installed on a &amp;lt;br&amp;gt;network?}B --&amp;gt;|No| D[Check the shortcut to DealerLogic &amp;lt;br&amp;gt;is correct - The shortcut needs to point &amp;lt;br&amp;gt;to DNSSuite.exe. Ensure the if they are &amp;lt;br&amp;gt;networked that the network &amp;lt;br&amp;gt;connection is working and there isn&amp;#39;t a &amp;lt;br&amp;gt;red cross next to the drive.]C:::d --&amp;gt;|Yes| E[Check the shortcut to DealerLogic &amp;lt;br&amp;gt;is correct - the shortcut needs to point &amp;lt;br&amp;gt;to DNSSuite.</description>
+%%{init: {&amp;#34;flowchart&amp;#34;: {&amp;#34;stroke-width&amp;#34; : &amp;#34;40px&amp;#34;}}}%%flowchart TB;A[Ask the client to reboot before&amp;lt;br&amp;gt; commencing troubleshooting] --&amp;gt; B{Is &amp;lt;br&amp;gt;DealerLogic &amp;lt;br&amp;gt;running?}B:::d --&amp;gt;|Yes| C{Is DealerLogic &amp;lt;br&amp;gt;installed on a &amp;lt;br&amp;gt;network?}B --&amp;gt;|No| D[Check the shortcut to DealerLogic &amp;lt;br&amp;gt;is correct - The shortcut needs to point &amp;lt;br&amp;gt;to DNSSuite.exe. Ensure the if they are &amp;lt;br&amp;gt;networked that the network &amp;lt;br&amp;gt;connection is working and there isn&amp;#39;t a &amp;lt;br&amp;gt;red cross next to the drive.</description>
     </item>
     <item>
       <title>CloudLogic</title>

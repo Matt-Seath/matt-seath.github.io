@@ -7,10 +7,15 @@ weight = 9
 
 Articles for DealerLogic can be found [Here.]({{< ref "/Documentation/DealerLogic/_index.md" >}} "DealerLogic")
 
-{{< mermaid >}}
-
+{{< mermaid zoom="false" >}}
+%%{
+  init: {
+    "flowchart": {
+      "stroke-width" : "40px"
+    }
+  }
+}%%
 flowchart TB;
-
     A[Ask the client to reboot before<br> commencing troubleshooting] --> B{Is <br>DealerLogic <br>running?}
     B:::d -->|Yes| C{Is DealerLogic <br>installed on a <br>network?}
     B -->|No| D[Check the shortcut to DealerLogic <br>is correct - The shortcut needs to point <br>to DNSSuite.exe. Ensure the if they are <br>networked that the network <br>connection is working and there isn't a <br>red cross next to the drive.]

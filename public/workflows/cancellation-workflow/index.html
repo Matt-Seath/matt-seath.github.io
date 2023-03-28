@@ -8,18 +8,18 @@
     <meta name="description" content="">
     <title>Cancellation Workflow :: DaisBase</title><link rel="icon" href="/images/favicon.png" type="image/x-icon">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1679958345" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1679958345" rel="stylesheet"></noscript>
-    <link href="/css/nucleus.css?1679958345" rel="stylesheet">
-    <link href="/css/auto-complete.css?1679958345" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1679958345" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1679958345" rel="stylesheet">
-    <link href="/css/fonts.css?1679958345" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1679958345" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1679958345" rel="stylesheet">
-    <link href="/css/theme-blue.css?1679958345" rel="stylesheet" id="variant-style">
-    <link href="/css/variant.css?1679958345" rel="stylesheet">
-    <link href="/css/print.css?1679958345" rel="stylesheet" media="print">
-    <link href="/css/ie.css?1679958345" rel="stylesheet">
-    <script src="/js/url.js?1679958345"></script>
-    <script src="/js/variant.js?1679958345"></script>
+    <link href="/css/fontawesome-all.min.css?1679967410" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1679967410" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1679967410" rel="stylesheet">
+    <link href="/css/auto-complete.css?1679967410" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1679967410" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1679967410" rel="stylesheet">
+    <link href="/css/fonts.css?1679967410" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1679967410" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1679967410" rel="stylesheet">
+    <link href="/css/theme-blue.css?1679967410" rel="stylesheet" id="variant-style">
+    <link href="/css/variant.css?1679967410" rel="stylesheet">
+    <link href="/css/print.css?1679967410" rel="stylesheet" media="print">
+    <link href="/css/ie.css?1679967410" rel="stylesheet">
+    <script src="/js/url.js?1679967410"></script>
+    <script src="/js/variant.js?1679967410"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -36,7 +36,11 @@
       // some further base stuff
       var baseUriFull='http:\/\/example.org/';
       window.variants && variants.init( [ 'blue' ] );
-    </script>
+    </script><style>
+.mermaid {font-size: 50px;}
+</style>
+
+
   </head>
   <body class="mobile-support html" data-url="/workflows/cancellation-workflow/index.html">
     <div id="body" class="default-animation">
@@ -71,14 +75,10 @@
 
 <ol>
 <li>
-<p>Once Zendesk Ticket is recieved, paste the following template into the chat and fill in the missing values. Then, change chat from internal so that the client can view it.</p>
-<p>
-<a href="#image-266d69b863314232bf8c6a657ea9eef1" class="lightbox-link">
-<img src="/static/images/1.png" alt="image" style="height: auto; width: auto;" loading="lazy">
-</a>
-<a href="javascript:history.back();" class="lightbox" id="image-266d69b863314232bf8c6a657ea9eef1">
-<img src="/static/images/1.png" alt="image" class="lightbox-image" loading="lazy">
-</a></p>
+<p>Once Zendesk Ticket is recieved:</p>
+<ul>
+<li>Paste the following template into the text field and fill in the missing values.</li>
+</ul>
 <pre tabindex="0"><code>Hi [name],
 
 I’ve received a cancellation request for [organisation name], to end the following services: 
@@ -98,25 +98,141 @@ We’re sorry to see you go.
 I’ll send you an email confirming when the cancellation has been finalised.
 
 Kind regards,
-</code></pre><p>
-<a href="#image-60b31e6d96aacb943a27df4617a051a9" class="lightbox-link">
-<img src="/1.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</code></pre><ul>
+<li>Change chat from internal so that the client can view it.</li>
+</ul>
+</li>
+<li>
+<p>Add a client warning in Host:</p>
+<ul>
+<li>
+<p>Select the client and open the &lsquo;Client Tags&rsquo; tab.</p>
+</li>
+<li>
+<p>Under &lsquo;Tag Operations&rsquo; select &lsquo;Type&rsquo; dropdown and select &lsquo;Client Warning&rsquo;.</p>
+</li>
+</ul>
+<p>
+<a href="#image-0ec46e7de2bd9641823c1590e5e6ce0e" class="lightbox-link">
+<img src="/images/workflows/44e71807-dc0d-46a0-98e5-82ff416a6287.png" alt="image" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-60b31e6d96aacb943a27df4617a051a9">
-<img src="/1.png" alt="image" class="lightbox-image" loading="lazy">
+<a href="javascript:history.back();" class="lightbox" id="image-0ec46e7de2bd9641823c1590e5e6ce0e">
+<img src="/images/workflows/44e71807-dc0d-46a0-98e5-82ff416a6287.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+<ul>
+<li>Paste the following into the field, filling in the missing values.</li>
+</ul>
+<pre tabindex="0"><code>Cancellation - [Zendesk ticket] - Read only until [dd/mm/yy]
+</code></pre><p>
+<a href="#image-a5430f61b5b20f527d315420a4bbf8b6" class="lightbox-link">
+<img src="/images/workflows/91d451a3-7a4f-4580-a9ed-21b9dec614a8.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-a5430f61b5b20f527d315420a4bbf8b6">
+<img src="/images/workflows/91d451a3-7a4f-4580-a9ed-21b9dec614a8.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+<ul>
+<li>Click &lsquo;OK&rsquo;.</li>
+</ul>
+</li>
+<li>
+<p>Process the End-date for all relevant billable Cloudlogic packages 90 days from cancellation:</p>
+<p>
+<a href="#image-15b1c8d673355a66058d073e06934b7a" class="lightbox-link">
+<img src="/images/workflows/ac699ee2-a5a4-4e4a-b8cf-3748f0952e5e.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-15b1c8d673355a66058d073e06934b7a">
+<img src="/images/workflows/ac699ee2-a5a4-4e4a-b8cf-3748f0952e5e.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+<ul>
+<li>Add the following note if not autofilled:</li>
+</ul>
+<pre tabindex="0"><code>Cancellation - [Zendesk ticket] - RO until [dd/mm/yy]
+</code></pre></li>
+<li>
+<p>Process the End-date for DealerLogic packages as normal:</p>
+<ul>
+<li>Enddating Dealerlogic package at the 30day canellation date - this ensures that the customer will be RO after the 30days</li>
+</ul>
+<p>
+<a href="#image-6180422518eac1404d4d45468c11ca30" class="lightbox-link">
+<img src="/images/workflows/3449eb46-ee8c-445a-9067-46924a611b87.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-6180422518eac1404d4d45468c11ca30">
+<img src="/images/workflows/3449eb46-ee8c-445a-9067-46924a611b87.png" alt="image" class="lightbox-image" loading="lazy">
 </a></p>
 </li>
 <li>
-<p>Add the following as a client warning:</p>
-<pre tabindex="0"><code>Cancellation - Zendesk ticket - Read only until dd/mm/yy
-</code></pre><p>
-<a href="#image-3e89508e83330c5b3fc1d8bb5ee37002" class="lightbox-link">
-<img src="/images/1.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+<p>Process the Bulk End-dates:</p>
+<ul>
+<li>Accounting</li>
+<li>Client Server</li>
+<li>Forms</li>
+<li>DAIS</li>
+<li>Network</li>
+<li>Invoicing</li>
+</ul>
+<p>
+<a href="#image-593aa231e47c2addd33ec7bf1b471859" class="lightbox-link">
+<img src="/images/workflows/80e966e2-2c25-46b4-a54e-24aef0cbfd3c.png" alt="image" style="height: auto; width: auto;" loading="lazy">
 </a>
-<a href="javascript:history.back();" class="lightbox" id="image-3e89508e83330c5b3fc1d8bb5ee37002">
-<img src="/images/1.png" alt="image" class="lightbox-image" loading="lazy">
+<a href="javascript:history.back();" class="lightbox" id="image-593aa231e47c2addd33ec7bf1b471859">
+<img src="/images/workflows/80e966e2-2c25-46b4-a54e-24aef0cbfd3c.png" alt="image" class="lightbox-image" loading="lazy">
 </a></p>
 </li>
+<li>
+<p>Create a followup ticket in Zendesk:</p>
+<ul>
+<li>Include the following:</li>
+</ul>
+<pre tabindex="0"><code>Cancellation Zendesk link
+Email customer
+Remove 1 gg user and email IT
+</code></pre><p>
+<a href="#image-174a2665efc956b4a00c25d9b434b9fd" class="lightbox-link">
+<img src="/images/workflows/494883e1-2932-4b7f-8c30-fcd255949563.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-174a2665efc956b4a00c25d9b434b9fd">
+<img src="/images/workflows/494883e1-2932-4b7f-8c30-fcd255949563.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+</li>
+<li>
+<p>Put a reminder in software support email calender for 90 days time <strong>(DAY AFTER the RO date ends)</strong>:</p>
+<ul>
+<li>Reminder:</li>
+</ul>
+<pre tabindex="0"><code>- [Zendesk Ticket] - [organisation name] - [client number]
+- delete gg users
+- IT to delete gg users and database”
+</code></pre><ul>
+<li>Add yourself as an attendee.</li>
+</ul>
+<p>
+<a href="#image-6b132d9782110df561e7fceced84fd41" class="lightbox-link">
+<img src="/images/workflows/e12973ad-ffc7-4c6e-a525-2bd697c7ba20.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-6b132d9782110df561e7fceced84fd41">
+<img src="/images/workflows/e12973ad-ffc7-4c6e-a525-2bd697c7ba20.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+</li>
+<li>
+<p>Email the client at the 30 day mark:</p>
+<pre tabindex="0"><code>Hi [name],
+
+This email is to confirm that the cancellation for [organisation name] is complete.
+
+The services included on this cancellation are:
+[List products here]
+
+Please continue to log into Cloudlogic using username [______]
+
+Dealerlogic Read Only access is available until [dd/mm/yy] for you to extract any information you require for reporting purposes for an additional charge. 
+
+Please ensure that you are familiar with any legislation/policies around data retention. If you have any questions please reach out to your State and Federal Government Entities.
+
+After the [dd/mm/yy] your data backups will be destroyed and no further access will be available.
+
+Kind regards,
+</code></pre></li>
 </ol>
 
             <footer class="footline">
@@ -140,12 +256,12 @@ Kind regards,
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/js/auto-complete.js?1679958345" defer></script>
-        <script src="/js/lunr/lunr.min.js?1679958345" defer></script>
-        <script src="/js/lunr/lunr.stemmer.support.min.js?1679958345" defer></script>
-        <script src="/js/lunr/lunr.multi.min.js?1679958345" defer></script>
-        <script src="/js/lunr/lunr.en.min.js?1679958345" defer></script>
-        <script src="/js/search.js?1679958345" defer></script>
+        <script src="/js/auto-complete.js?1679967410" defer></script>
+        <script src="/js/lunr/lunr.min.js?1679967410" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1679967410" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1679967410" defer></script>
+        <script src="/js/lunr/lunr.en.min.js?1679967410" defer></script>
+        <script src="/js/search.js?1679967410" defer></script>
       </div>
       <div id="homelinks" class="default-animation">
         <ul>
@@ -215,8 +331,8 @@ Kind regards,
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1679958345" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1679958345" defer></script>
-    <script src="/js/theme.js?1679958345" defer></script>
+    <script src="/js/clipboard.min.js?1679967410" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1679967410" defer></script>
+    <script src="/js/theme.js?1679967410" defer></script>
   </body>
 </html>
