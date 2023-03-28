@@ -84,6 +84,13 @@ var relearn_search_index = [
     "uri": "/documentation/index.html"
   },
   {
+    "content": " Right click anywhere on the page and select “Inspect” from the bottom. Click the “»” from the top-right banner and select “Application”. Listed under Storage, double click “Cookies” or click on the arrow to expand it. Select the the cloudlogic url to expose the session cookies. Click on “Clear all cookies”. Close the Inspect window and refresh the page. ",
+    "description": "",
+    "tags": null,
+    "title": "How to Force Logoff",
+    "uri": "/troubleshooting/cloudlogic/how-to-force-logoff/index.html"
+  },
+  {
     "content": "",
     "description": "",
     "tags": null,
