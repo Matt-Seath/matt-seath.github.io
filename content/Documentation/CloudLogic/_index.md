@@ -10,10 +10,7 @@ DealerLogic is setup by installing a “server” version of the application loc
 CloudLogic makes use of a simple Remote Desktop Services application, which allows a dealer’s DealerLogic app to be installed on one of two AWS servers run in the Dealer Solutions' legacy AWS account. From there, a dealer can then login via the [**portal**](https://cloudlogicportal.dealersolutions.com.au/RDWeb/Pages/en-US/login.aspx?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx "https://cloudlogicportal.dealersolutions.com.au/RDWeb/Pages/en-US/login.aspx?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx") with their provided username and password which then connects them to their DealerLogic instance hosted in the “Cloud”.
 
 CloudLogic diagram:
-
-![img](static/images/1.png)
-
-
+![img](/images/1.png)
 
 
 IT support CloudLogic in a couple of ways:

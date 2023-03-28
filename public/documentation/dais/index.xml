@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DAIS on DaisBase</title>
-    <link>http://example.org/documentation/dais/index.html</link>
+    <link>http://www.daisbase.com/documentation/dais/index.html</link>
     <description>Recent content in DAIS on DaisBase</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/documentation/dais/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://www.daisbase.com/documentation/dais/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

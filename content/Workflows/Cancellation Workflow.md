@@ -4,7 +4,7 @@ weight = 9
 +++
 
 
-1. Once Zendesk Ticket is recieved:
+1. __Once Zendesk Ticket is recieved:__
 
     - Paste the following template into the text field and fill in the missing values.
 
@@ -32,7 +32,7 @@ weight = 9
 
     - Change chat from internal so that the client can view it.
 
-2. Add a client warning in Host:
+2. __Add a client warning in Host:__
 
     - Select the client and open the 'Client Tags' tab.
     
@@ -48,7 +48,7 @@ weight = 9
 
     - Click 'OK'.
 
-3. Process the End-date for all relevant billable Cloudlogic packages 90 days from cancellation:
+3. __Process the End-date for all relevant billable Cloudlogic packages 90 days from cancellation:__
 
     ![image](/images/workflows/ac699ee2-a5a4-4e4a-b8cf-3748f0952e5e.png)
 
@@ -56,13 +56,13 @@ weight = 9
     ```
     Cancellation - [Zendesk ticket] - RO until [dd/mm/yy]
     ```
-4. Process the End-date for DealerLogic packages as normal:
+4. __Process the End-date for DealerLogic packages as normal:__
 
     - Enddating Dealerlogic package at the 30day canellation date - this ensures that the customer will be RO after the 30days
 
     ![image](/images/workflows/3449eb46-ee8c-445a-9067-46924a611b87.png)
 
-5. Process the Bulk End-dates:
+5. __Process the Bulk End-dates:__
 
     - Accounting
     - Client Server
@@ -73,7 +73,7 @@ weight = 9
 
     ![image](/images/workflows/80e966e2-2c25-46b4-a54e-24aef0cbfd3c.png)
 
-6. Create a followup ticket in Zendesk:
+6. __Create a followup ticket in Zendesk:__
 
     - Include the following:
     ```
@@ -84,7 +84,7 @@ weight = 9
 
     ![image](/images/workflows/494883e1-2932-4b7f-8c30-fcd255949563.png)
 
-7. Put a reminder in software support email calender for 90 days time __(DAY AFTER the RO date ends)__:
+7. __Put a reminder in software support email calender for 90 days time (DAY AFTER the RO date ends)__:
 
     - Reminder:
     ```
@@ -97,7 +97,7 @@ weight = 9
 
     ![image](/images/workflows/e12973ad-ffc7-4c6e-a525-2bd697c7ba20.png)
 
-8. Email the client at the 30 day mark:
+8. __Email the client at the 30 day mark:__
 
     ```
     Hi [name],
