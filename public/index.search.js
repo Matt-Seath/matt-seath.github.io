@@ -126,7 +126,7 @@ var relearn_search_index = [
     "uri": "/troubleshooting/dealerlogic/appsupport/replicating-an-issue-in-appsupport/index.html"
   },
   {
-    "content": "",
+    "content": "dsdfsadf\n",
     "description": "",
     "tags": null,
     "title": "Transaction Flowchart",
@@ -175,7 +175,7 @@ var relearn_search_index = [
     "uri": "/troubleshooting/cloudlogic/index.html"
   },
   {
-    "content": "Troubleshooting Flowchart Articles for DealerLogic can be found Here.\n%%{\rinit: {\r\"flowchart\": {\r\"stroke-width\" : \"40px\"\r}\r}\r}%%\rflowchart TB;\rA[Obtain DX number \u003cbr\u003eand from client] --\u003e B{The issue is resolved!}}\r",
+    "content": "Troubleshooting Flowchart Articles for DealerLogic can be found Here.\nflowchart TB;\rA[Obtain DX number \u003cbr\u003eand from client] --\u003e B{The issue is resolved!}\r",
     "description": "",
     "tags": null,
     "title": "DAIS",
