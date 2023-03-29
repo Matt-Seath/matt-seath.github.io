@@ -26,7 +26,8 @@
       <link>http://www.daisbase.com/troubleshooting/dais/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://www.daisbase.com/troubleshooting/dais/index.html</guid>
-      <description></description>
+      <description>Troubleshooting Flowchart Articles for DealerLogic can be found Here.
+%%{init: {&amp;#34;flowchart&amp;#34;: {&amp;#34;stroke-width&amp;#34; : &amp;#34;40px&amp;#34;}}}%%flowchart TB;A[Obtain DX number &amp;lt;br&amp;gt;and from client] --&amp;gt; B{The issue is resolved!}}</description>
     </item>
   </channel>
 </rss>

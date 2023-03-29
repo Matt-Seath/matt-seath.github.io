@@ -6,8 +6,7 @@
     <meta name="generator" content="Hugo 0.111.3">
     <meta name="generator" content="Relearn 5.12.4+tip">
     <meta name="description" content="">
-    <title>CloudLogic :: DaisBase</title>
-    <link href="/documentation/cloudlogic/index.xml" rel="alternate" type="application/rss+xml" title="CloudLogic :: DaisBase"><link rel="icon" href="/images/favicon.png" type="image/x-icon">
+    <title>Adding Users in Host :: DaisBase</title><link rel="icon" href="/images/favicon.png" type="image/x-icon">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
     <link href="/css/fontawesome-all.min.css?1680050693" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1680050693" rel="stylesheet"></noscript>
     <link href="/css/nucleus.css?1680050693" rel="stylesheet">
@@ -43,17 +42,17 @@
 
 
   </head>
-  <body class="mobile-support html" data-url="/documentation/cloudlogic/index.html">
+  <body class="mobile-support html" data-url="/workflows/adding-users-in-host/index.html">
     <div id="body" class="default-animation">
       <div id="sidebar-overlay"></div>
       <div id="toc-overlay"></div>
       <nav id="topbar" class="highlightable">
         <div>
           <div class="navigation">
-            <a class="nav nav-next topbar-link" href="/documentation/dais/index.html" title="DAIS (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+            <a class="nav nav-next topbar-link" href="/workflows/cancellation-workflow/index.html" title="Cancellation Workflow (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
           </div>
           <div class="navigation">
-            <a class="nav nav-prev topbar-link" href="/documentation/index.html" title="Documentation (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+            <a class="nav nav-prev topbar-link" href="/workflows/index.html" title="Workflows (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
           </div>
           <div id="breadcrumbs">
             <span id="sidebar-toggle-span">
@@ -61,8 +60,8 @@
             </span>
             <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
               <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">DaisBase</span></a><meta itemprop="position" content="1"> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/documentation/index.html"><span itemprop="name">Documentation</span></a><meta itemprop="position" content="2"> > </li>
-              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">CloudLogic</span><meta itemprop="position" content="3"></li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/workflows/index.html"><span itemprop="name">Workflows</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Adding Users in Host</span><meta itemprop="position" content="3"></li>
             </ol>
           </div>
         </div>
@@ -72,26 +71,103 @@
           <div id="head-tags">
           </div>
           <article class="default">
-<h1 id="cloudlogic">CloudLogic</h1>
+<h1 id="adding-users-in-host">Adding Users in Host</h1>
 
-<p>CloudLogic is the “Cloud” based version of a Dealer Solutions application called DealerLogic. (Read more <a href="https://www.coxautoretail.com.au/products-services/dms/" title="https://www.coxautoretail.com.au/products-services/dms/" target="_blank"><strong>here</strong></a>).</p>
-<p>DealerLogic is setup by installing a “server” version of the application locally on a dealer’s network and then users login using a local version of DealerLogic on each desktop. IT do not support DealerLogic, it is handled by the respective developers.</p>
-<p>CloudLogic makes use of a simple Remote Desktop Services application, which allows a dealer’s DealerLogic app to be installed on one of two AWS servers run in the Dealer Solutions&rsquo; legacy AWS account. From there, a dealer can then login via the <a href="https://cloudlogicportal.dealersolutions.com.au/RDWeb/Pages/en-US/login.aspx?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx" title="https://cloudlogicportal.dealersolutions.com.au/RDWeb/Pages/en-US/login.aspx?ReturnUrl=/RDWeb/Pages/en-US/Default.aspx" target="_blank"><strong>portal</strong></a> with their provided username and password which then connects them to their DealerLogic instance hosted in the “Cloud”.</p>
-<p>CloudLogic diagram:
-
-<a href="#image-49a78cce7610046317f5458ef79f5ad0" class="lightbox-link">
-<img src="/images/1.png" alt="img" style="height: auto; width: auto;" loading="lazy">
-</a>
-<a href="javascript:history.back();" class="lightbox" id="image-49a78cce7610046317f5458ef79f5ad0">
-<img src="/images/1.png" alt="img" class="lightbox-image" loading="lazy">
-</a></p>
-<p>IT support CloudLogic in a couple of ways:</p>
 <ol>
 <li>
-<p>Managing CloudLogic users. You can find a guide <a href="https://dealersolutions.atlassian.net/wiki/spaces/CSK/pages/4735991884" title="/wiki/spaces/CSK/pages/4735991884" target="_blank"><strong>here</strong></a> for creating new users for existing clients and you can find a guide <a href="https://dealersolutions.atlassian.net/wiki/spaces/CSK/pages/4735696981" title="/wiki/spaces/CSK/pages/4735696981" target="_blank"><strong>here</strong></a> for a guide to disable users.</p>
+<p>Call each client and ask the specific DX numbers they need to be in.</p>
 </li>
 <li>
-<p>IT are responsible for setting up new Clients in CloudLogic. This is a more involved process, but a guide can be followed <strong>here</strong>.</p>
+<p>Within each DX in the host</p>
+</li>
+<li>
+<p>f5 → new user
+
+<a href="#image-2dcaca843ec5124d660179d52e19b824" class="lightbox-link">
+<img src="/images/workflows/12.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-2dcaca843ec5124d660179d52e19b824">
+<img src="/images/workflows/12.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+</li>
+<li>
+<p>Fill in red sections - User type will be Dealer Staff and make sure Dealerlogic User is ticked
+
+<a href="#image-636b919f862fd59d08b96d766d656e88" class="lightbox-link">
+<img src="/images/workflows/1.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-636b919f862fd59d08b96d766d656e88">
+<img src="/images/workflows/1.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+</li>
+<li>
+<p>Once created make sure you give them the 3 DAIS permissions
+
+<a href="#image-1b165be3acf4ecbe3c9fedd0a8437c26" class="lightbox-link">
+<img src="/images/workflows/2.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-1b165be3acf4ecbe3c9fedd0a8437c26">
+<img src="/images/workflows/2.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+</li>
+<li>
+<p>If Cloud Logic see below: – If not Cloud Logic, go to
+If Cloud Logic - you will need to make sure that they have a gg user for them. If not you will need to get them in contact with an account manager as gg users are billable products.</p>
+<p>If they have a log in provide the Cloud Logic link if they dont have it already.<br>
+<a href="http://cloudlogic.dealersolutions.com.au/" title="http://cloudlogic.dealersolutions.com.au" target="_blank">cloudlogic.dealersolutions.com.au</a> - then provide the gg username and password for them to enter
+
+<a href="#image-51f1a2f2e32e6fe0f707e714a6383380" class="lightbox-link">
+<img src="/images/workflows/3.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-51f1a2f2e32e6fe0f707e714a6383380">
+<img src="/images/workflows/3.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+</li>
+<li>
+<p>Once in will look like this (will only have 1 or 2 DL symbols and 1 log off)
+
+<a href="#image-c821042702978378290dee8500679c3b" class="lightbox-link">
+<img src="/images/workflows/4.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-c821042702978378290dee8500679c3b">
+<img src="/images/workflows/4.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+</li>
+<li>
+<p>hit DL symbol and then connect - if first time logging in another screen will appear:</p>
+<pre><code> username: INTRADEALER\ ggusername Password: gg password 
+</code></pre>
+<p>this will then take them to the Dealerlogic log in screen
+
+<a href="#image-c23f5e569f3fb2a7f38c0068e6324413" class="lightbox-link">
+<img src="/images/workflows/5.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-c23f5e569f3fb2a7f38c0068e6324413">
+<img src="/images/workflows/5.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+</li>
+<li>
+<p>Someone with a user already will need to log into the program. Once inside the program
+
+<a href="#image-eebb4e7541aca060db339e0bee6f32f1" class="lightbox-link">
+<img src="/images/workflows/6.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-eebb4e7541aca060db339e0bee6f32f1">
+<img src="/images/workflows/6.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+</li>
+<li>
+<p>The User Details section will be their Dealer Logic Log in details (this is whatever they would like). The online services information is  what you have just created for them in the f5 screen. <em>(Stress the importance that the online services information is NOT their Dealerlogic log in details and these are not to be changed within the program)</em>
+
+<a href="#image-5d996edcb28309523cae47141f0a9a91" class="lightbox-link">
+<img src="/images/workflows/7.png" alt="image" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-5d996edcb28309523cae47141f0a9a91">
+<img src="/images/workflows/7.png" alt="image" class="lightbox-image" loading="lazy">
+</a></p>
+</li>
+<li>
+<p>Once this is done, they Save. then they can log out and back in as themselves and start processing transactions.</p>
 </li>
 </ol>
 
@@ -130,8 +206,8 @@
       </div>
       <div id="content-wrapper" class="highlightable">
         <ul class="topics enlarge morespace collapsible-menu">
-          <li data-nav-id="/documentation/index.html" class="parent "><input type="checkbox" id="section-e168b3d1f84171565d0cb958237cd5d8" aria-controls="subsections-e168b3d1f84171565d0cb958237cd5d8" checked><label for="section-e168b3d1f84171565d0cb958237cd5d8"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Documentation</span></label><a class="padding" href="/documentation/index.html">Documentation</a><ul id="subsections-e168b3d1f84171565d0cb958237cd5d8" class="morespace collapsible-menu">
-          <li data-nav-id="/documentation/cloudlogic/index.html" class="active"><a class="padding" href="/documentation/cloudlogic/index.html">CloudLogic</a></li>
+          <li data-nav-id="/documentation/index.html" class=""><input type="checkbox" id="section-e168b3d1f84171565d0cb958237cd5d8" aria-controls="subsections-e168b3d1f84171565d0cb958237cd5d8"><label for="section-e168b3d1f84171565d0cb958237cd5d8"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Documentation</span></label><a class="padding" href="/documentation/index.html">Documentation</a><ul id="subsections-e168b3d1f84171565d0cb958237cd5d8" class="morespace collapsible-menu">
+          <li data-nav-id="/documentation/cloudlogic/index.html" class=""><a class="padding" href="/documentation/cloudlogic/index.html">CloudLogic</a></li>
           <li data-nav-id="/documentation/dais/index.html" class=""><a class="padding" href="/documentation/dais/index.html">DAIS</a></li>
           <li data-nav-id="/documentation/dealerlogic/index.html" class=""><a class="padding" href="/documentation/dealerlogic/index.html">DealerLogic</a></li></ul></li>
           <li data-nav-id="/troubleshooting/index.html" class=""><input type="checkbox" id="section-2c20587919345c5f42ffd52d8b592b94" aria-controls="subsections-2c20587919345c5f42ffd52d8b592b94"><label for="section-2c20587919345c5f42ffd52d8b592b94"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Troubleshooting</span></label><a class="padding" href="/troubleshooting/index.html">Troubleshooting</a><ul id="subsections-2c20587919345c5f42ffd52d8b592b94" class="morespace collapsible-menu">
@@ -152,8 +228,8 @@
           <li data-nav-id="/troubleshooting/cloudlogic/how-to-force-logoff/index.html" class=""><a class="padding" href="/troubleshooting/cloudlogic/how-to-force-logoff/index.html">How to Force Logoff</a></li>
           <li data-nav-id="/troubleshooting/cloudlogic/authentication-issues/index.html" class=""><a class="padding" href="/troubleshooting/cloudlogic/authentication-issues/index.html">Authentication Issues</a></li></ul></li>
           <li data-nav-id="/troubleshooting/dais/index.html" class=""><a class="padding" href="/troubleshooting/dais/index.html">DAIS</a></li></ul></li>
-          <li data-nav-id="/workflows/index.html" class=""><input type="checkbox" id="section-d2925db1fb2c79c46fd6ccd84dcd1d8c" aria-controls="subsections-d2925db1fb2c79c46fd6ccd84dcd1d8c"><label for="section-d2925db1fb2c79c46fd6ccd84dcd1d8c"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Workflows</span></label><a class="padding" href="/workflows/index.html">Workflows</a><ul id="subsections-d2925db1fb2c79c46fd6ccd84dcd1d8c" class="morespace collapsible-menu">
-          <li data-nav-id="/workflows/adding-users-in-host/index.html" class=""><a class="padding" href="/workflows/adding-users-in-host/index.html">Adding Users in Host</a></li>
+          <li data-nav-id="/workflows/index.html" class="parent "><input type="checkbox" id="section-d2925db1fb2c79c46fd6ccd84dcd1d8c" aria-controls="subsections-d2925db1fb2c79c46fd6ccd84dcd1d8c" checked><label for="section-d2925db1fb2c79c46fd6ccd84dcd1d8c"><i class="fas fa-chevron-down"></i><i class="fas fa-chevron-right"></i><span class="a11y-only">Submenu Workflows</span></label><a class="padding" href="/workflows/index.html">Workflows</a><ul id="subsections-d2925db1fb2c79c46fd6ccd84dcd1d8c" class="morespace collapsible-menu">
+          <li data-nav-id="/workflows/adding-users-in-host/index.html" class="active"><a class="padding" href="/workflows/adding-users-in-host/index.html">Adding Users in Host</a></li>
           <li data-nav-id="/workflows/cancellation-workflow/index.html" class=""><a class="padding" href="/workflows/cancellation-workflow/index.html">Cancellation Workflow</a></li></ul></li>
         </ul>
         <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter"></div>

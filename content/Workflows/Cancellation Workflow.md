@@ -4,9 +4,11 @@ weight = 9
 +++
 
 
-1. __Once Zendesk Ticket is recieved:__
 
-    - Paste the following template into the text field and fill in the missing values.
+## Once Zendesk Ticket is recieved:
+
+
+1. __Paste the following template into the text field and fill in the missing values.__
 
     ```
     Hi [name],
@@ -30,7 +32,7 @@ weight = 9
     Kind regards,
     ```
 
-    - Change chat from internal so that the client can view it.
+    - Change the message visablity from internal to match the client email.
 
 2. __Add a client warning in Host:__
 
@@ -117,3 +119,35 @@ weight = 9
 
     Kind regards,
     ```
+
+
+## After 30 days have passed
+
+
+1. __Disable all but 1 gg user from DuoMobile.__
+
+2. __Email IT to remove all but 1 "gg" user.__
+    ```
+    caa.itsupport@coxautoinc.com
+    ```
+
+    Email template:
+    ```
+    Hi, please remove the following [user/s]:
+    
+    username: [gg/user]
+
+    Thanks!
+    ```
+
+3. __Once email confirmation is recieved from IT:__
+
+    - copy job ID and confirmation message into Zendesk ticket.
+
+    - Submit ticket as "Open".
+
+4. __Once IT confirms users are removed:__
+
+    - copy job ID and confirmation message into Zendesk ticket.
+
+    - Submit ticket as "Closed".
