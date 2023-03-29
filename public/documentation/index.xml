@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Documentation on DaisBase</title>
-    <link>http://www.daisbase.com/documentation/index.html</link>
+    <link>http://www.daisbase.com/documentation/</link>
     <description>Recent content in Documentation on DaisBase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://www.daisbase.com/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CloudLogic</title>
-      <link>http://www.daisbase.com/documentation/cloudlogic/index.html</link>
+      <link>http://www.daisbase.com/documentation/cloudlogic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/documentation/cloudlogic/index.html</guid>
+      <guid>http://www.daisbase.com/documentation/cloudlogic/</guid>
       <description>CloudLogic is the “Cloud” based version of a Dealer Solutions application called DealerLogic. (Read more here).
 DealerLogic is setup by installing a “server” version of the application locally on a dealer’s network and then users login using a local version of DealerLogic on each desktop. IT do not support DealerLogic, it is handled by the respective developers.
 CloudLogic makes use of a simple Remote Desktop Services application, which allows a dealer’s DealerLogic app to be installed on one of two AWS servers run in the Dealer Solutions&amp;rsquo; legacy AWS account.</description>
     </item>
     <item>
       <title>DAIS</title>
-      <link>http://www.daisbase.com/documentation/dais/index.html</link>
+      <link>http://www.daisbase.com/documentation/dais/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/documentation/dais/index.html</guid>
+      <guid>http://www.daisbase.com/documentation/dais/</guid>
       <description></description>
     </item>
     <item>
       <title>DealerLogic</title>
-      <link>http://www.daisbase.com/documentation/dealerlogic/index.html</link>
+      <link>http://www.daisbase.com/documentation/dealerlogic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/documentation/dealerlogic/index.html</guid>
+      <guid>http://www.daisbase.com/documentation/dealerlogic/</guid>
       <description></description>
     </item>
   </channel>

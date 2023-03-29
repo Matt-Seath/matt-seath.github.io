@@ -12,5 +12,5 @@ home = [ "HTML", "RSS", "SEARCH"]
 
 [params]
   themeVariant = "blue"
-  uglyURLs = true
   collapsibleMenu = true
+  disableExplicitIndexURLs = true

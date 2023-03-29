@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CloudLogic on DaisBase</title>
-    <link>http://www.daisbase.com/troubleshooting/cloudlogic/index.html</link>
+    <link>http://www.daisbase.com/troubleshooting/cloudlogic/</link>
     <description>Recent content in CloudLogic on DaisBase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://www.daisbase.com/troubleshooting/cloudlogic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Force Logoff</title>
-      <link>http://www.daisbase.com/troubleshooting/cloudlogic/how-to-force-logoff/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/cloudlogic/how-to-force-logoff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/cloudlogic/how-to-force-logoff/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/cloudlogic/how-to-force-logoff/</guid>
       <description> Right click anywhere on the page and select &amp;ldquo;Inspect&amp;rdquo; from the bottom. Click the &amp;ldquo;&amp;raquo;&amp;rdquo; from the top-right banner and select &amp;ldquo;Application&amp;rdquo;. Listed under Storage, double click &amp;ldquo;Cookies&amp;rdquo; or click on the arrow to expand it. Select the the cloudlogic url to expose the session cookies. Click on &amp;ldquo;Clear all cookies&amp;rdquo;. Close the Inspect window and refresh the page. </description>
     </item>
     <item>
       <title>Authentication Issues</title>
-      <link>http://www.daisbase.com/troubleshooting/cloudlogic/authentication-issues/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/cloudlogic/authentication-issues/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/cloudlogic/authentication-issues/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/cloudlogic/authentication-issues/</guid>
       <description></description>
     </item>
   </channel>

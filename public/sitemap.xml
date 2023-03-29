@@ -1,87 +1,93 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.daisbase.com/workflows/adding-users-in-host/index.html</loc>
+    <loc>http://www.daisbase.com/workflows/adding-users-in-host/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/backdating-dl-to-an-earlier-version/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/backdating-dl-to-an-earlier-version/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/bucket-o-stuff/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/bucket-o-stuff/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/workflows/cancellation-workflow/index.html</loc>
+    <loc>http://www.daisbase.com/workflows/cancellation-workflow/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/client-firewall-issues/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/client-firewall-issues/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/documentation/cloudlogic/index.html</loc>
+    <loc>http://www.daisbase.com/documentation/cloudlogic/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/configure-dl-shortcut/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/configure-dl-shortcut/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/creating-a-case-in-jsd/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/creating-a-case-in-jsd/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/documentation/dais/index.html</loc>
+    <loc>http://www.daisbase.com/documentation/dais/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/documentation/dealerlogic/index.html</loc>
+    <loc>http://www.daisbase.com/documentation/dealerlogic/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/documentation/index.html</loc>
+    <loc>http://www.daisbase.com/documentation/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/cloudlogic/how-to-force-logoff/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/cloudlogic/how-to-force-logoff/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/logging-in-single-user-mode/index.html</loc>
+    <loc>http://www.daisbase.com/documentation/dais/invalidations/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/performing-a-database-compact-and-repair/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/logging-in-single-user-mode/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/rebooting/index.html</loc>
+    <loc>http://www.daisbase.com/documentation/dais/invalidations/manual-reprocessing/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/replicating-an-issue-in-appsupport/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/performing-a-database-compact-and-repair/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dais/transaction-flowchart/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/rebooting/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/replicating-an-issue-in-appsupport/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/updating-dl-and-dnssuite/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dais/transaction-flowchart/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/validating-dl-license-details/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/workflows/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/updating-dl-and-dnssuite/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/cloudlogic/authentication-issues/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dealerlogic/validating-dl-license-details/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/cloudlogic/index.html</loc>
+    <loc>http://www.daisbase.com/workflows/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/troubleshooting/dais/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/cloudlogic/authentication-issues/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/categories/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/cloudlogic/</loc>
   </url>
   <url>
-    <loc>http://www.daisbase.com/tags/index.html</loc>
+    <loc>http://www.daisbase.com/troubleshooting/dais/</loc>
+  </url>
+  <url>
+    <loc>http://www.daisbase.com/categories/</loc>
+  </url>
+  <url>
+    <loc>http://www.daisbase.com/tags/</loc>
   </url>
 </urlset>

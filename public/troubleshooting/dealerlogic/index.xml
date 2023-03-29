@@ -2,86 +2,86 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DealerLogic on DaisBase</title>
-    <link>http://www.daisbase.com/troubleshooting/dealerlogic/index.html</link>
+    <link>http://www.daisbase.com/troubleshooting/dealerlogic/</link>
     <description>Recent content in DealerLogic on DaisBase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://www.daisbase.com/troubleshooting/dealerlogic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AppSupport</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/</guid>
       <description></description>
     </item>
     <item>
       <title>Backdating DL to an Earlier Version</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/backdating-dl-to-an-earlier-version/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/backdating-dl-to-an-earlier-version/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/backdating-dl-to-an-earlier-version/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/backdating-dl-to-an-earlier-version/</guid>
       <description></description>
     </item>
     <item>
       <title>Bucket O&#39; Stuff</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/bucket-o-stuff/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/bucket-o-stuff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/bucket-o-stuff/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/bucket-o-stuff/</guid>
       <description>Overview Bucket-O-Stuff is intended as an inbox for new work which Product Managers will then triage and decide on the course of action to for the work. It is to prevent requests simply making there way into product lanes and being action without the approval of a Product Manager. Any P1 and P2 should also be submitted to Bucket-O-Stuff and then the P1 &amp;amp; P2 Internal Communication Standards document followed in order to handle the P1 or P2.</description>
     </item>
     <item>
       <title>Client Firewall Issues</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/client-firewall-issues/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/client-firewall-issues/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/client-firewall-issues/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/client-firewall-issues/</guid>
       <description></description>
     </item>
     <item>
       <title>Configure DL Shortcut</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/configure-dl-shortcut/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/configure-dl-shortcut/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/configure-dl-shortcut/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/configure-dl-shortcut/</guid>
       <description>Check the shortcut to DealerLogic is correct - The shortcut needs to point to DNSSuite.exe. Ensure the if they are networked that the network connection is working and there isn&amp;rsquo;t a red cross next to the drive.
 Ensure that unc paths are used. E.g. &amp;lsquo;\server\Dealerlogic&amp;rsquo; instead of &amp;lsquo;c:\Dealerlogic&amp;rsquo;.</description>
     </item>
     <item>
       <title>Creating a Case in JSD</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/creating-a-case-in-jsd/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/creating-a-case-in-jsd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/creating-a-case-in-jsd/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/creating-a-case-in-jsd/</guid>
       <description></description>
     </item>
     <item>
       <title>Logging in Single User Mode</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/logging-in-single-user-mode/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/logging-in-single-user-mode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/logging-in-single-user-mode/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/logging-in-single-user-mode/</guid>
       <description></description>
     </item>
     <item>
       <title>Performing a Database Compact and Repair</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/performing-a-database-compact-and-repair/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/performing-a-database-compact-and-repair/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/performing-a-database-compact-and-repair/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/performing-a-database-compact-and-repair/</guid>
       <description></description>
     </item>
     <item>
       <title>Rebooting</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/rebooting/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/rebooting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/rebooting/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/rebooting/</guid>
       <description>Just tell the client to turn it off and on again, Lol. Is is that hard?</description>
     </item>
     <item>
       <title>Updating DL and DNSSuite</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/updating-dl-and-dnssuite/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/updating-dl-and-dnssuite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/updating-dl-and-dnssuite/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/updating-dl-and-dnssuite/</guid>
       <description></description>
     </item>
     <item>
       <title>Validating DL License Details</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/validating-dl-license-details/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/validating-dl-license-details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/validating-dl-license-details/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/validating-dl-license-details/</guid>
       <description></description>
     </item>
   </channel>

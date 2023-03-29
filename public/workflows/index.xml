@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workflows on DaisBase</title>
-    <link>http://www.daisbase.com/workflows/index.html</link>
+    <link>http://www.daisbase.com/workflows/</link>
     <description>Recent content in Workflows on DaisBase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://www.daisbase.com/workflows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adding Users in Host</title>
-      <link>http://www.daisbase.com/workflows/adding-users-in-host/index.html</link>
+      <link>http://www.daisbase.com/workflows/adding-users-in-host/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/workflows/adding-users-in-host/index.html</guid>
+      <guid>http://www.daisbase.com/workflows/adding-users-in-host/</guid>
       <description>Call each client and ask the specific DX numbers they need to be in.
 Within each DX in the host
 f5 → new user Fill in red sections - User type will be Dealer Staff and make sure Dealerlogic User is ticked Once created make sure you give them the 3 DAIS permissions If Cloud Logic see below: – If not Cloud Logic, go to If Cloud Logic - you will need to make sure that they have a gg user for them.</description>
     </item>
     <item>
       <title>Cancellation Workflow</title>
-      <link>http://www.daisbase.com/workflows/cancellation-workflow/index.html</link>
+      <link>http://www.daisbase.com/workflows/cancellation-workflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/workflows/cancellation-workflow/index.html</guid>
+      <guid>http://www.daisbase.com/workflows/cancellation-workflow/</guid>
       <description>Once Zendesk Ticket is recieved: Paste the following template into the text field and fill in the missing values.
 Hi [name],I’ve received a cancellation request for [organisation name], to end the following services: [insert product(s) here]Please note, as per our Terms and Conditions, the 30 day notice of cancellation will take effect from the day your request was submitted. Therefore, the cancellation date will be [dd/mm/yy] and you will receive one last invoice for month.</description>
     </item>

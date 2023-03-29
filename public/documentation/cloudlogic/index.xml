@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CloudLogic on DaisBase</title>
-    <link>http://www.daisbase.com/documentation/cloudlogic/index.html</link>
+    <link>http://www.daisbase.com/documentation/cloudlogic/</link>
     <description>Recent content in CloudLogic on DaisBase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://www.daisbase.com/documentation/cloudlogic/index.xml" rel="self" type="application/rss+xml" />

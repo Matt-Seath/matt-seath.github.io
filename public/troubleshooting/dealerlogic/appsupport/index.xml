@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AppSupport on DaisBase</title>
-    <link>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/index.html</link>
+    <link>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/</link>
     <description>Recent content in AppSupport on DaisBase</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Replicating an Issue in AppSupport</title>
-      <link>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/replicating-an-issue-in-appsupport/index.html</link>
+      <link>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/replicating-an-issue-in-appsupport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/replicating-an-issue-in-appsupport/index.html</guid>
+      <guid>http://www.daisbase.com/troubleshooting/dealerlogic/appsupport/replicating-an-issue-in-appsupport/</guid>
       <description></description>
     </item>
   </channel>
