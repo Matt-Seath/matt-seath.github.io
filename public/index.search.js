@@ -129,6 +129,13 @@ var relearn_search_index = [
     "content": "",
     "description": "",
     "tags": null,
+    "title": "Transaction Flowchart",
+    "uri": "/troubleshooting/dais/transaction-flowchart/index.html"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
     "title": "Troubleshooting",
     "uri": "/troubleshooting/index.html"
   },

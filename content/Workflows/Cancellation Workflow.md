@@ -120,7 +120,6 @@ weight = 9
     Kind regards,
     ```
 
-
 ## After 30 days have passed
 
 
