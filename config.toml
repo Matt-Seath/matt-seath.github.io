@@ -14,3 +14,4 @@ home = [ "HTML", "RSS", "SEARCH", "SEARCHPAGE"]
   themeVariant = "blue"
   collapsibleMenu = true
   disableExplicitIndexURLs = true
+  disableShortcutsTitle = true

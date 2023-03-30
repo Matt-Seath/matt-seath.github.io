@@ -23,5 +23,12 @@ f5 → new user Fill in red sections - User type will be Dealer Staff and make s
       <description>Once Zendesk Ticket is recieved: Paste the following template into the text field and fill in the missing values.
 Hi [name],I’ve received a cancellation request for [organisation name], to end the following services: [insert product(s) here]Please note, as per our Terms and Conditions, the 30 day notice of cancellation will take effect from the day your request was submitted. Therefore, the cancellation date will be [dd/mm/yy] and you will receive one last invoice for month.</description>
     </item>
+    <item>
+      <title>Invalidations</title>
+      <link>http://www.daisbase.com/workflows/invalidations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.daisbase.com/workflows/invalidations/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
