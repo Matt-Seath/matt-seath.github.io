@@ -30,7 +30,7 @@ While you can reprocess a transaction electronically if you invalidate it within
 11. Fax to Dealer Solutions to send to QT for reprocessing.
 
 
-## List of documents that are required by Rego Easy Unit (QT ESP-Support) with request for reprocessing:
+### List of documents that are required by Rego Easy Unit (QT ESP-Support) with request for reprocessing:
 
 - Copy of registration application with correct details
 

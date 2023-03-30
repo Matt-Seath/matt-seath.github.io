@@ -3,7 +3,8 @@ title = "Cancellation Workflow"
 weight = 9
 +++
 
-1. __Paste the following template into the text field and fill in the missing values.__
+
+1. Paste the following template into the text field and fill in the missing values.
 
     ```
     Hi [name],
@@ -29,7 +30,7 @@ weight = 9
 
     - Change the message visablity from internal to match the client email.
 
-2. __Add a client warning in Host:__
+2. Add a client warning in Host:
 
     - Select the client and open the 'Client Tags' tab.
     
@@ -45,7 +46,7 @@ weight = 9
 
     - Click 'OK'.
 
-3. __Process the End-date for all relevant billable Cloudlogic packages 90 days from cancellation:__
+3. Process the End-date for all relevant billable Cloudlogic packages 90 days from cancellation:
 
     ![image](/images/workflows/ac699ee2-a5a4-4e4a-b8cf-3748f0952e5e.png)
 
@@ -53,13 +54,13 @@ weight = 9
     ```
     Cancellation - [Zendesk ticket] - RO until [dd/mm/yy]
     ```
-4. __Process the End-date for DealerLogic packages as normal:__
+4. Process the End-date for DealerLogic packages as normal:
 
     - Enddating Dealerlogic package at the 30day canellation date - this ensures that the customer will be RO after the 30days
 
     ![image](/images/workflows/3449eb46-ee8c-445a-9067-46924a611b87.png)
 
-5. __Process the Bulk End-dates:__
+5. Process the Bulk End-dates:
 
     - Accounting
     - Client Server
@@ -70,7 +71,7 @@ weight = 9
 
     ![image](/images/workflows/80e966e2-2c25-46b4-a54e-24aef0cbfd3c.png)
 
-6. __Create a followup ticket in Zendesk:__
+6. Create a followup ticket in Zendesk:
 
     - Include the following:
     ```
@@ -81,7 +82,7 @@ weight = 9
 
     ![image](/images/workflows/494883e1-2932-4b7f-8c30-fcd255949563.png)
 
-7. __Put a reminder in software support email calender for 90 days time (DAY AFTER the RO date ends)__:
+7. Put a reminder in software support email calender for 90 days time (DAY AFTER the RO date ends):
 
     - Reminder:
     ```
@@ -94,7 +95,7 @@ weight = 9
 
     ![image](/images/workflows/e12973ad-ffc7-4c6e-a525-2bd697c7ba20.png)
 
-8. __Email the client at the 30 day mark:__
+8. Email the client at the 30 day mark:
 
     ```
     Hi [name],
@@ -115,12 +116,12 @@ weight = 9
     Kind regards,
     ```
 
-## After 30 days have passed
+### After 30 days have passed
 
 
-1. __Disable all but 1 gg user from DuoMobile.__
+1. Disable all but 1 gg user from DuoMobile.
 
-2. __Email IT to remove all but 1 "gg" user.__
+2. Email IT to remove all but 1 "gg" user.
     ```
     caa.itsupport@coxautoinc.com
     ```
@@ -134,13 +135,13 @@ weight = 9
     Thanks!
     ```
 
-3. __Once email confirmation is recieved from IT:__
+3. Once email confirmation is recieved from IT:
 
     - copy job ID and confirmation message into Zendesk ticket.
 
     - Submit ticket as "Open".
 
-4. __Once IT confirms users are removed:__
+4. Once IT confirms users are removed:
 
     - copy job ID and confirmation message into Zendesk ticket.
 
