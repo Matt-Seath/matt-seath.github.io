@@ -3,11 +3,6 @@ title = "Cancellation Workflow"
 weight = 9
 +++
 
-
-
-## Once Zendesk Ticket is recieved:
-
-
 1. __Paste the following template into the text field and fill in the missing values.__
 
     ```
