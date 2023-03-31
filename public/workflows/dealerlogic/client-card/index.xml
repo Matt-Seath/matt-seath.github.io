@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Client Card on DaisBase</title>
+    <link>http://www.daisbase.com/workflows/dealerlogic/client-card/</link>
+    <description>Recent content in Client Card on DaisBase</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://www.daisbase.com/workflows/dealerlogic/client-card/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding a New Client Card</title>
+      <link>http://www.daisbase.com/workflows/dealerlogic/client-card/adding-a-new-client-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.daisbase.com/workflows/dealerlogic/client-card/adding-a-new-client-card/</guid>
+      <description>Adding a new Client Card displays the Summary Client Card Screen. This screen enables you to enter a minimum of information to establish a new card whilst at the same time providing enough information to make the card relevant when saved. This gives you the flexibility to quickly add a card ‘on the fly’ and complete the less critical information later (if you want to).
+To an experienced user most fields on this screen are self-explanatory however Dealerlogic has an intuitive way of interpreting addresses that you may wish to experiment with.</description>
+    </item>
+  </channel>
+</rss>

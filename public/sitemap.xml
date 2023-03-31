@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://www.daisbase.com/workflows/dealerlogic/client-card/adding-a-new-client-card/</loc>
+  </url>
+  <url>
     <loc>http://www.daisbase.com/workflows/adding-users-in-host/</loc>
   </url>
   <url>
@@ -16,10 +19,16 @@
     <loc>http://www.daisbase.com/workflows/cancellation-workflow/</loc>
   </url>
   <url>
+    <loc>http://www.daisbase.com/workflows/dealerlogic/client-card/</loc>
+  </url>
+  <url>
     <loc>http://www.daisbase.com/troubleshooting/dealerlogic/client-firewall-issues/</loc>
   </url>
   <url>
     <loc>http://www.daisbase.com/documentation/cloudlogic/</loc>
+  </url>
+  <url>
+    <loc>http://www.daisbase.com/workflows/cloudlogic/</loc>
   </url>
   <url>
     <loc>http://www.daisbase.com/troubleshooting/dealerlogic/configure-dl-shortcut/</loc>
@@ -31,10 +40,16 @@
     <loc>http://www.daisbase.com/documentation/dais/</loc>
   </url>
   <url>
+    <loc>http://www.daisbase.com/workflows/dais/</loc>
+  </url>
+  <url>
     <loc>http://www.daisbase.com/documentation/dealerlogic/</loc>
   </url>
   <url>
     <loc>http://www.daisbase.com/troubleshooting/dealerlogic/</loc>
+  </url>
+  <url>
+    <loc>http://www.daisbase.com/workflows/dealerlogic/</loc>
   </url>
   <url>
     <loc>http://www.daisbase.com/documentation/</loc>
@@ -71,6 +86,9 @@
   </url>
   <url>
     <loc>http://www.daisbase.com/troubleshooting/dealerlogic/updating-dl-and-dnssuite/</loc>
+  </url>
+  <url>
+    <loc>http://www.daisbase.com/documentation/useful-links/</loc>
   </url>
   <url>
     <loc>http://www.daisbase.com/troubleshooting/dealerlogic/validating-dl-license-details/</loc>

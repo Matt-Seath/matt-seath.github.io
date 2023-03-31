@@ -1,5 +1,12 @@
 var relearn_search_index = [
   {
+    "content": "Adding a new Client Card displays the Summary Client Card Screen. This screen enables you to enter a minimum of information to establish a new card whilst at the same time providing enough information to make the card relevant when saved. This gives you the flexibility to quickly add a card ‘on the fly’ and complete the less critical information later (if you want to).\nTo an experienced user most fields on this screen are self-explanatory however Dealerlogic has an intuitive way of interpreting addresses that you may wish to experiment with.\nAdding addresses has never been quicker or easier. Simply enter the street number and name followed by the suburb or town and Tab off the field. The software will complete the rest for you.\nPostal addresses are added in the same way however if the postal address, street address and garaging address are identical you can simply press the Same as Street to complete the details for you.\nAdding a Joint Owner or Registered Operator can also be performed from the same Summary Client card Screen.\nDriver’s Licence Numbers (private person) or CRN’s for Organisations should be entered.\nFor Organisations you should record ABN’s, A.C.N’s or Business Numbers and if the Client card you are creating is for a Motor Dealer it is very important to tick the field Motor Dealer.\nTo add a Joint Owner or Registered Operator click the second Tab at the top of the Summary Client Card Screen. This tab will be named either Joint Owner or Registered Operator depending on whether your initial selection was for an either Individual or Organisation.\nIf the majority of the details for your Joint Owner or Registered Operator are the same as the main Individual or Organisation simply press the Copy from main button to fill the card in for you. Note the different card numbers for the Main and Joint owner.\nSpecial Note: If you have added either a Joint Owner or Registered Operator in the Summary Client Card Screen, on saving the summary, the software will generate two individual Client Cards and join them with a unique relationship.\nThe two Client Cards created as a result will appear individually in the Card Locate Window and display the Joint owner relationship under the Contacts Tab of each card.\n1 Search to locate a client card by entering the customers surname into the Quick Locate field.\nA: If a match is found – it will be listed in the field below, double click on the card to select it\nB: If a match is not found – click on the ‘Add’ button\n2 Enter customer information – click on the ‘Save’ button to save the customer in the client list. You will now be returned to the client list – double click to select the vendor client card (step 1a above).\n",
+    "description": "",
+    "tags": null,
+    "title": "Adding a New Client Card",
+    "uri": "/workflows/dealerlogic/client-card/adding-a-new-client-card/"
+  },
+  {
     "content": " Call each client and ask the specific DX numbers they need to be in.\nWithin each DX in the host\nf5 → new user Fill in red sections - User type will be Dealer Staff and make sure Dealerlogic User is ticked Once created make sure you give them the 3 DAIS permissions If Cloud Logic see below: – If not Cloud Logic, go to If Cloud Logic - you will need to make sure that they have a gg user for them. If not you will need to get them in contact with an account manager as gg users are billable products.\nIf they have a log in provide the Cloud Logic link if they dont have it already.\ncloudlogic.dealersolutions.com.au - then provide the gg username and password for them to enter Once in will look like this (will only have 1 or 2 DL symbols and 1 log off) hit DL symbol and then connect - if first time logging in another screen will appear:\nusername: INTRADEALER\\ ggusername Password: gg password this will then take them to the Dealerlogic log in screen Someone with a user already will need to log into the program. Once inside the program The User Details section will be their Dealer Logic Log in details (this is whatever they would like). The online services information is what you have just created for them in the f5 screen. (Stress the importance that the online services information is NOT their Dealerlogic log in details and these are not to be changed within the program) Once this is done, they Save. then they can log out and back in as themselves and start processing transactions.\n",
     "description": "",
     "tags": null,
@@ -38,6 +45,13 @@ var relearn_search_index = [
     "content": "",
     "description": "",
     "tags": null,
+    "title": "Client Card",
+    "uri": "/workflows/dealerlogic/client-card/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
     "title": "Client Firewall Issues",
     "uri": "/troubleshooting/dealerlogic/client-firewall-issues/"
   },
@@ -47,6 +61,13 @@ var relearn_search_index = [
     "tags": null,
     "title": "CloudLogic",
     "uri": "/documentation/cloudlogic/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "CloudLogic",
+    "uri": "/workflows/cloudlogic/"
   },
   {
     "content": "Check the shortcut to DealerLogic is correct - The shortcut needs to point to DNSSuite.exe. Ensure the if they are networked that the network connection is working and there isn’t a red cross next to the drive.\nEnsure that unc paths are used. E.g. ‘\\server\\Dealerlogic’ instead of ‘c:\\Dealerlogic’.\n",
@@ -73,6 +94,13 @@ var relearn_search_index = [
     "content": "",
     "description": "",
     "tags": null,
+    "title": "DAIS",
+    "uri": "/workflows/dais/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
     "title": "DealerLogic",
     "uri": "/documentation/dealerlogic/"
   },
@@ -82,6 +110,13 @@ var relearn_search_index = [
     "tags": null,
     "title": "DealerLogic",
     "uri": "/troubleshooting/dealerlogic/"
+  },
+  {
+    "content": "",
+    "description": "",
+    "tags": null,
+    "title": "DealerLogic",
+    "uri": "/workflows/dealerlogic/"
   },
   {
     "content": "",
@@ -166,6 +201,13 @@ var relearn_search_index = [
     "tags": null,
     "title": "Updating DL and DNSSuite",
     "uri": "/troubleshooting/dealerlogic/updating-dl-and-dnssuite/"
+  },
+  {
+    "content": "Phone CAA Support 1300 66 11 33 Email CloudLogic https://cloudlogic.coxautoinc.com.au IT caa.itsupport@coxautoinc.com QT esp-support@tmr.qld.gov.au Accounts caa.accreceivable.cass@coxautoinc.com Data/Website help@coxautoretail.com.au Manuals/Documentation DAIS Manual DAIS User Manual (dealersolutions.com.au) DealerLogic Manual Dealerlogic Online Manual (dealersolutions.com.au) DealerLogic Pages Dealerlogic - Confluence (atlassian.net) ",
+    "description": "",
+    "tags": null,
+    "title": "Useful Links",
+    "uri": "/documentation/useful-links/"
   },
   {
     "content": "",
