@@ -3,6 +3,8 @@ title = "Adding a New Client Card"
 weight = 9
 +++
 
+{{< br >}}
+
 Adding a new Client Card displays the Summary Client Card Screen.  **This screen enables you to enter a minimum of information to establish a new card whilst at the same time providing enough information to make the card relevant when saved.**  This gives you the flexibility to quickly add a card ‘on the fly’ and complete the less critical information later (if you want to).
 
 ![clip0097](http://help.dealersolutions.com.au/DealerLogic/clip0097.png)

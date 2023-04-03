@@ -4,6 +4,8 @@ alwaysopen = false
 weight = 9
 +++
 
+{{< br >}}
+
 CloudLogic is the “Cloud” based version of a Dealer Solutions application called DealerLogic. (Read more [**here**](https://www.coxautoretail.com.au/products-services/dms/ "https://www.coxautoretail.com.au/products-services/dms/")).
 
 DealerLogic is setup by installing a “server” version of the application locally on a dealer’s network and then users login using a local version of DealerLogic on each desktop. IT do not support DealerLogic, it is handled by the respective developers.

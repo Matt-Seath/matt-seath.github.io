@@ -70,6 +70,12 @@
     <loc>http://www.daisbase.com/troubleshooting/dealerlogic/performing-a-database-compact-and-repair/</loc>
   </url>
   <url>
+    <loc>http://www.daisbase.com/documentation/dais/personalised-plates-ppq/</loc>
+  </url>
+  <url>
+    <loc>http://www.daisbase.com/troubleshooting/dais/personalised-plates-scenarios/</loc>
+  </url>
+  <url>
     <loc>http://www.daisbase.com/troubleshooting/dealerlogic/rebooting/</loc>
   </url>
   <url>
@@ -80,6 +86,9 @@
   </url>
   <url>
     <loc>http://www.daisbase.com/troubleshooting/dais/transaction-flowchart/</loc>
+  </url>
+  <url>
+    <loc>http://www.daisbase.com/documentation/dais/transactions/</loc>
   </url>
   <url>
     <loc>http://www.daisbase.com/troubleshooting/</loc>

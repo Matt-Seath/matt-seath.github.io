@@ -3,6 +3,8 @@ title = "Stamp Duty Exemptions"
 weight = 9
 +++
 
+{{< br >}}
+
 There are 4 valid concessions for STE, these are:
 - Ex-Serviceperson
 - Local/Semi Government

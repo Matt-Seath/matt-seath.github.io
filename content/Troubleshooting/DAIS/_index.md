@@ -5,6 +5,8 @@ weight = 10
 alwaysopen = false
 +++
 
+{{< br >}}
+
 ## Troubleshooting Flowchart
 
 Articles for DealerLogic can be found [Here.]({{< ref "/Documentation/DealerLogic/_index.md" >}} "DealerLogic")

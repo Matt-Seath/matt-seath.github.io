@@ -3,6 +3,8 @@ title = "Configure DL Shortcut"
 weight = 9
 +++
 
+{{< br >}}
+
 Check the shortcut to DealerLogic
 is correct - The shortcut needs to point
 to DNSSuite.exe. Ensure the if they are

@@ -3,6 +3,8 @@ title = "Bucket O' Stuff"
 weight = 9
 +++
 
+{{< br >}}
+
 ## Overview
 
 Bucket-O-Stuff is intended as an inbox for new work which Product Managers will then triage and decide on the course of action to for the work.  It is to prevent requests simply making there way into product lanes and being action without the approval of a Product Manager.  Any P1 and P2 should also be submitted to Bucket-O-Stuff and then the [P1 & P2 Internal Communication Standards](https://dealersolutions.atlassian.net/wiki/spaces/JIRA/pages/712739332) document followed in order to handle the P1 or P2.

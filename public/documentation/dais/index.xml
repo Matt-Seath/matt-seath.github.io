@@ -7,12 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://www.daisbase.com/documentation/dais/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Personalised Plates (PPQ)</title>
+      <link>http://www.daisbase.com/documentation/dais/personalised-plates-ppq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.daisbase.com/documentation/dais/personalised-plates-ppq/</guid>
+      <description>Common Scenarios Personalised Plates are vacant -&amp;gt; To be attached to new vehicle Register into customers name with Personalised Plates Personalised Plates are vacant -&amp;gt; To be attached to registered demo Transfer to customer with Standard Plates attached Replace plate to Personalised Plates Personalised Plates on customers trade-in vehicle -&amp;gt; To be attached to new vehicle Replace plates from Personalised Plates and attach Standard Plate Acquire customers trade-in with Standard Plates attached Register new vehicle in customers name with Personalised Plates Personalised Plates on customers trade-in vehicle -&amp;gt; To be attached to registered demo Replace plates from Personalised Plates and attach Standard Plate Acquire customers trade-in with Standard Plates attached Transfer demo customer is buying with current plates Replace plates to Personalised Plates </description>
+    </item>
+    <item>
       <title>Stamp Duty Exemptions</title>
       <link>http://www.daisbase.com/documentation/dais/stamp-duty-exemptions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://www.daisbase.com/documentation/dais/stamp-duty-exemptions/</guid>
       <description>There are 4 valid concessions for STE, these are:
 Ex-Serviceperson Local/Semi Government Government Qualifying Institutes Ex-Serviceperson These are individuals granted Stamp Duty Exemption from the Department of Veterans Affairs. Typically they are known as TPI, Totally and Permanently incapacitated by more than 70% or be assessed to have at least 50 impairment points to be eligible. As such, they are issued with one of two letters from the Department of Veterans Affairs (see example).</description>
+    </item>
+    <item>
+      <title>Transactions</title>
+      <link>http://www.daisbase.com/documentation/dais/transactions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://www.daisbase.com/documentation/dais/transactions/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

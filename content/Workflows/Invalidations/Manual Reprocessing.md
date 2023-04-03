@@ -3,6 +3,8 @@ title = "Manual Reprocessing"
 weight = 9
 +++
 
+{{< br >}}
+
 While you can reprocess a transaction electronically if you invalidate it within 21 days, if your original transaction date is beyond 21 days, you will need to submit reprocessing paperwork to have the transaction corrected by QT.  It is important to remember that you will need to provide evidence of your error, so ensure that you have this first before starting your invalidation.
 
 1. Highlight the completed transaction in your dais transactions box and either right click and select invalidate transaction or select Invalidate Transaction on the bottom right hand corner of the transactions box.

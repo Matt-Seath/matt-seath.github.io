@@ -3,6 +3,8 @@ title = "How to Force Logoff"
 weight = 9
 +++
 
+{{< br >}}
+
 1. Right click anywhere on the page and select "Inspect" from the bottom.
     ![image](/images/Troubleshooting/2023-03-28_13h00_03.png)
 
